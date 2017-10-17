@@ -154,7 +154,7 @@ Slider
 
 .cd-hero-slider {
   position: relative;
-  height: 600px;
+  height: 500px;
   overflow: hidden;
 }
 .cd-hero-slider li {
@@ -241,7 +241,7 @@ Single slide style
   left: 0;
   top: 0;
   /* this padding is used to align the text */
-  padding-top: 60%;
+  padding-top: 30%;
   text-align: center;
   /* Force Hardware Acceleration in WebKit */
   -webkit-backface-visibility: hidden;
