@@ -1,83 +1,570 @@
 <!doctype html>
-<html lang="en" class="no-js">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en-US">
+	<head>
 
-	
-	
-	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
-	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
-	<script src="js/modernizr.js"></script> <!-- Modernizr -->
-  	<style>
-  		body,html{ font-family: "microsoft yahei";background-color: #2c343b;}
-  	</style>
-	<title>我的个人网站</title>
-	<meta name="keywords" content="个人网站" />
-</head>
-<body>
-	<section class="cd-hero">
-		<ul class="cd-hero-slider autoplay">
-			<li class="selected">
-				<div class="cd-full-width">
-					<h2>徐鹏</h2>
-					<p>性别男 , 湖南常德人 , 一位90后程序员 </p>
-					<a href="#" class="cd-btn">了解更多</a>
-				</div> <!-- .cd-full-width -->
-			</li>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Resume</title>
+		<meta name="description" content="Unika - Responsive One Page HTML5 Template">
+		<meta name="keywords" content="HTML5, Bootsrtrap, One Page, Responsive, Template, Portfolio" />
+		<meta name="author" content="imransdesign.com">
 
-			<li>
-				<div class="cd-full-width">
-					<h2>相关经历</h2>
-					<p>2017年初在北京数字佳信软件有限公司入职 , 担任JAVA工程师<br>
-					2017年毕业于湖南涉外经济学院信息科学与工程系
-					<br>2016年在湖南星狮教育参加JAVA培训</p>
-					<a href="#" class="cd-btn">了解更多</a>				
-				</div> <!-- .cd-half-width -->
-			</li>
+		<!-- Mobile Metas -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Google Fonts  -->
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'> <!-- Body font -->
+		<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'> <!-- Navbar font -->
 
-			<li>				
-				<div class="cd-full-width">
-					<h2>职业技能</h2>
-					<p>xxxxxxxxxx</p>
-					<a href="#" class="cd-btn">了解更多</a>
-				</div> <!-- .cd-half-width -->
-				
-			</li>
+		<!-- Libs and Plugins CSS -->
+		<link rel="stylesheet" href="inc/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="inc/animations/css/animate.min.css">
+		<link rel="stylesheet" href="inc/font-awesome/css/font-awesome.min.css"> <!-- Font Icons -->
+		<link rel="stylesheet" href="inc/owl-carousel/css/owl.carousel.css">
+		<link rel="stylesheet" href="inc/owl-carousel/css/owl.theme.css">
 
-			<li>
-				<div class="cd-full-width">
-					<h2>开发项目</h2>
-					<p>常德技师学院资产综合管理系统<br>
-					常德技师学院宿舍管理系统</p>
-					<a href="#" class="cd-btn">了解更多</a>
-				</div> 
-			</li>
+		<!-- Theme CSS -->
+        <link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/mobile.css">
 
-			<li>
-				<div class="cd-full-width">
-					<h2>学无止境</h2>
-					<p>xxxxxxxxxx</p>
-					<a href="#" class="cd-btn">了解更多</a>
-				</div> <!-- .cd-full-width -->
-			</li>
-		</ul> <!-- .cd-hero-slider -->
+		<!-- Skin CSS -->
+		<link rel="stylesheet" href="css/skin/cool-gray.css">
+        <!-- <link rel="stylesheet" href="css/skin/ice-blue.css"> -->
+        <!-- <link rel="stylesheet" href="css/skin/summer-orange.css"> -->
+        <!-- <link rel="stylesheet" href="css/skin/fresh-lime.css"> -->
+        <!-- <link rel="stylesheet" href="css/skin/night-purple.css"> -->
 
-		<div class="cd-slider-nav">
-			<nav>
-				<span class="cd-marker item-1"></span>
-				
-				<ul>
-					<li class="selected"><a href="#0">基本信息</a></li>
-					<li><a href="#0">相关经历</a></li>
-					<li><a href="#0">职业技能</a></li>
-					<li><a href="#0">开发项目</a></li>
-					<li><a href="#0">学无止境</a></li>
-				</ul>
-			</nav> 
-		</div> <!-- .cd-slider-nav -->
-	</section> <!-- .cd-hero -->
-<script src="js/jquery-2.1.1.js"></script>
-<script src="js/main.js"></script> <!-- Resource jQuery -->
-</body>
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+	</head>
+
+    <body data-spy="scroll" data-target="#main-navbar">
+        <div class="page-loader"></div>  <!-- Display loading image while page loads -->
+    	<div class="body">
+        
+            <!--========== BEGIN HEADER ==========-->
+            <header id="header" class="header-main">
+
+                <!-- Begin Navbar -->
+                <nav id="main-navbar" class="navbar navbar-default navbar-fixed-top" role="navigation"> <!-- Classes: navbar-default, navbar-inverse, navbar-fixed-top, navbar-fixed-bottom, navbar-transparent. Note: If you use non-transparent navbar, set "height: 98px;" to #header -->
+
+                  <div class="container">
+
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                      <a class="navbar-brand page-scroll" href="index.html">Unika</a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a class="page-scroll" href="body"><i class="fa fa-home" aria-hidden="true"></i> 首页</a></li>
+                            <li><a class="page-scroll" href="#about-section"><i class="fa fa-user" aria-hidden="true"></i> 关于我</a></li>
+                            <li><a class="page-scroll" href="#cta-section"><i class="fa fa-briefcase" aria-hidden="true"></i> 职业技能</a></li>
+                            <li><a class="page-scroll" href="#services-section"><i class="fa fa-graduation-cap" aria-hidden="true"></i> 相关经历</a></li>
+                            <li><a class="page-scroll" href="#partners-section"><i class="fa fa-tag" aria-hidden="true"></i> 项目案例</a></li>                            
+                            <li><a class="page-scroll" href="#contact-section"><i class="fa fa-phone-square" aria-hidden="true"></i> 联系方式</a></li>
+                            
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                  </div><!-- /.container -->
+                </nav>
+                <!-- End Navbar -->
+
+            </header>
+            <!-- ========= END HEADER =========-->
+            
+            
+            
+           
+        	<!-- Begin text carousel intro section -->
+			<section id="text-carousel-intro-section" class="parallax" data-stellar-background-ratio="0.7" style="background-image:url(img/testimonial-bg.jpg);">
+				<div class="cover"></div>
+				<div class="container">
+					<div class="caption text-center text-white" data-stellar-ratio="0.7" >
+
+						<div id="owl-intro-text" class="owl-carousel" >
+							<div class="item" >
+								<h1>徐 鹏</h1>
+								
+								<p>因梦想而伟大,也因学习而改变,更因行动而成功</p>
+							
+                                <div class="extra-space-l"></div>
+								<a class="btn btn-blank page-scroll" href="#about-section" role="button">了解更多</a>
+							</div>
+							
+						</div>
+
+					</div> <!-- /.caption -->
+				</div> <!-- /.container -->
+
+			</section>
+			<!-- End text carousel intro section -->
+                
+                
+                
+                
+            <!-- Begin about section -->
+			<section id="about-section" class="page bg-style1">
+                <!-- Begin page header-->
+                <div class="page-header-wrapper">
+                    <div class="container">
+                        <div class="page-header text-center wow fadeInUp" data-wow-delay="0.3s">
+                            <h2>关于我</h2>
+                            <div class="devider"></div>
+                            <p class="subtitle"></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End page header-->
+
+                <!-- Begin rotate box-1 -->
+                <div class="rotate-box-1-wrapper">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-6">
+                                <a href="#" class="rotate-box-1 square-icon wow zoomIn" data-wow-delay="0">
+                                    <span class="rotate-box-icon"><i class="fa fa-user"></i></span>
+                                    <div class="rotate-box-info">
+                                        <h4>我是谁?</h4>
+                                        <p>Lorem ipsum dolor sit amet set, consectetur utes anet adipisicing elit, sed do eiusmod tempor incidist.</p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-md-3 col-sm-6">
+                                <a href="#" class="rotate-box-1 square-icon wow zoomIn" data-wow-delay="0.2s">
+                                    <span class="rotate-box-icon"><i class="fa fa-diamond"></i></span>
+                                    <div class="rotate-box-info">
+                                        <h4>我是做什么的?</h4>
+                                        <p>Lorem ipsum dolor sit amet set, consectetur utes anet adipisicing elit, sed do eiusmod tempor incidist.</p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-md-3 col-sm-6">
+                                <a href="#" class="rotate-box-1 square-icon wow zoomIn" data-wow-delay="0.4s">
+                                    <span class="rotate-box-icon"><i class="fa fa-heart"></i></span>
+                                    <div class="rotate-box-info">
+                                        <h4>为什么?</h4>
+                                        <p>Lorem ipsum dolor sit amet set, consectetur utes anet adipisicing elit, sed do eiusmod tempor incidist.</p>
+                                    </div>
+                                </a>
+                            </div>
+                            
+                            <div class="col-md-3 col-sm-6">
+                                <a href="#" class="rotate-box-1 square-icon wow zoomIn" data-wow-delay="0.6s">
+                                    <span class="rotate-box-icon"><i class="fa fa-clock-o"></i></span>
+                                    <div class="rotate-box-info">
+                                        <h4>我的?</h4>
+                                        <p>Lorem ipsum dolor sit amet set, consectetur utes anet adipisicing elit, sed do eiusmod tempor incidist.</p>
+                                    </div>
+                                </a>
+                            </div>
+                            
+                        </div> <!-- /.row -->
+                    </div> <!-- /.container -->
+                </div>
+                <!-- End rotate box-1 -->
+                
+                <div class="extra-space-l"></div>
+                
+                <!-- Begin page header--> 
+                <div class="page-header-wrapper">
+                    <div class="container">
+                        
+                    </div>
+                </div>
+                <!-- End page header-->
+           
+          </section>
+          <!-- End about section -->
+
+              
+              
+              
+          <!-- Begin cta -->
+          <section id="cta-section">
+          	<div  class="cta">
+            	<div class="container">
+                	<div class="row">
+					<div class="page-header text-center wow fadeInUp" data-wow-delay="0.3s">
+                            <h4>职业技能</h4>
+							 <div class="devider"></div>
+							 <p class="subtitle"></p>
+                       </div>
+							<div class="col-sm-6">
+                                <div class="skill-bar wow slideInLeft" data-wow-delay="0.2s">
+                                    <div class="progress-lebel">
+                                        <h6>JAVA</h6>
+                                    </div>
+                                    <div class="progress">
+                                      <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-sm-6">
+                                <div class="skill-bar wow slideInRight" data-wow-delay="0.2s">
+                                    <div class="progress-lebel">
+                                        <h6>JDBC & Servlet/JSP</h6>
+                                    </div>
+                                    <div class="progress">
+                                      <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-sm-6">
+                                <div class="skill-bar wow slideInLeft" data-wow-delay="0.35s">
+                                    <div class="progress-lebel">
+                                        <h6>Oracle & MySql</h6>
+                                    </div>
+                                    <div class="progress">
+                                      <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-sm-6">
+                                <div class="skill-bar wow slideInRight" data-wow-delay="0.35s">
+                                    <div class="progress-lebel">
+                                        <h6>Html & Css</h6>
+                                    </div>
+                                    <div class="progress">
+                                      <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+							
+							 <div class="col-sm-6">
+                                <div class="skill-bar wow slideInLeft" data-wow-delay="0.5s">
+                                    <div class="progress-lebel">
+                                        <h6>Javascript & jQuery</h6>
+                                    </div>
+                                    <div class="progress">
+                                      <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-sm-6">
+                                <div class="skill-bar wow slideInRight" data-wow-delay="0.5s">
+                                    <div class="progress-lebel">
+                                        <h6>Json & XML</h6>
+                                    </div>
+                                    <div class="progress">
+                                      <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                    	
+							 <div class="col-sm-6">
+                                <div class="skill-bar wow slideInLeft" data-wow-delay="0.65s">
+                                    <div class="progress-lebel">
+                                        <h6>Hibernate/Mybatis & Struts2/Spring MVC & Spring</h6>
+                                    </div>
+                                    <div class="progress">
+                                      <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-sm-6">
+                                <div class="skill-bar wow slideInRight" data-wow-delay="0.65s">
+                                    <div class="progress-lebel">
+                                        <h6>Bootstrap & EasyUI</h6>
+                                    </div>
+                                    <div class="progress">
+                                      <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                    </div> <!-- /.row -->
+                </div> <!-- /.container -->
+            </div>
+          </section>
+          <!-- End cta -->
+
+              
+              
+              
+            <!-- Begin Services -->
+            <section id="services-section" class="page text-center">
+                <!-- Begin page header-->
+                <div class="page-header-wrapper">
+                    <div class="container">
+                        <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
+                            <h2>相关经历</h2>
+                            <div class="devider"></div>
+                            <p class="subtitle"></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End page header-->
+            
+                <!-- Begin roatet box-2 -->
+                <div class="rotate-box-2-wrapper">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-6">
+                                <a href="#" class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0">
+                                    <span class="rotate-box-icon"><i class="fa fa-mobile"></i></span>
+                                    <div class="rotate-box-info">
+                                        <h4>学校经历</h4>
+                                        <p>Lorem ipsum dolor sit amet set, consectetur utes anet adipisicing elit, sed do eiusmod tempor incidist.</p>
+                                    </div>
+                                </a>
+                            </div>
+            
+                            <div class="col-md-4 col-sm-6">
+                                <a href="#" class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0.2s">
+                                    <span class="rotate-box-icon"><i class="fa fa-pie-chart"></i></span>
+                                    <div class="rotate-box-info">
+                                        <h4>培训经历</h4>
+                                        <p>Lorem ipsum dolor sit amet set, consectetur utes anet adipisicing elit, sed do eiusmod tempor incidist.</p>
+                                    </div>
+                                </a>
+                            </div>
+            
+                            <div class="col-md-4 col-sm-6">
+                                <a href="#" class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0.4s">
+                                    <span class="rotate-box-icon"><i class="fa fa-cloud"></i></span>
+                                    <div class="rotate-box-info">
+                                        <h4>工作经历</h4>
+                                        <p>Lorem ipsum dolor sit amet set, consectetur utes anet adipisicing elit, sed do eiusmod tempor incidist.</p>
+                                    </div>
+                                </a>
+                            </div>
+                            
+                           
+                            
+                        </div> <!-- /.row -->
+                    </div>                        
+                </div>
+                <!-- End rotate-box-2 -->
+            </section>
+            <!-- End Services -->
+  
+            <!-- Begin partners -->
+            <section id="partners-section">
+               
+                <!-- End page header-->
+                <div class="container">
+                      <div class="row">
+                        <div class="col-md-12">
+                            <div class="portfolio">
+                                <!-- Begin page header-->
+                                <div class="page-header-wrapper">
+                                    <div class="container">
+                                        <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
+                                            <h2>项目案例</h2>
+                                            <div class="devider"></div>
+                                            <p class="subtitle"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End page header-->
+                                <div class="portfoloi_content_area" >
+                                   
+                                    <div class="portfolio_content">
+                                        <div class="row"  id="portfolio">
+                                            <div class="col-xs-12 col-sm-4 appsDevelopment">
+                                                <div class="portfolio_single_content">
+                                                    <img src="img/portfolio/p1.jpg" alt="title"/>
+                                                    <div>
+                                                        <a href="#">Skull Awesome</a>
+                                                        <span>Subtitle</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-4 GraphicDesign">
+                                                <div class="portfolio_single_content">
+                                                    <img src="img/portfolio/p2.jpg" alt="title"/>
+                                                    <div>
+                                                        <a href="#">Photo Frame</a>
+                                                        <span>Subtitle</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-4 responsive">
+                                                <div class="portfolio_single_content">
+                                                    <img src="img/portfolio/p3.jpg" alt="title"/>
+                                                    <div>
+                                                        <a href="#">Hand Shots</a>
+                                                        <span>Subtitle</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-4 webDesign websites">
+                                                <div class="portfolio_single_content">
+                                                    <img src="img/portfolio/p4.jpg" alt="title"/>
+                                                    <div>
+                                                        <a href="#">Night Abstract</a>
+                                                        <span>Subtitle</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-4 appsDevelopment websites">
+                                                <div class="portfolio_single_content">
+                                                    <img src="img//portfolio/p5.jpg" alt="title"/>
+                                                    <div>
+                                                        <a href="#">Joy of Independence</a>
+                                                        <span>Subtitle</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-4 GraphicDesign">
+                                                <div class="portfolio_single_content">
+                                                    <img src="img/portfolio/p6.jpg" alt="title"/>
+                                                    <div>
+                                                        <a href="#">Night Crawlers</a>
+                                                        <span>Subtitle</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-4 responsive">
+                                                <div class="portfolio_single_content">
+                                                    <img src="img/portfolio/p7.jpg" alt="title"/>
+                                                    <div>
+                                                        <a href="#">Last Motel</a>
+                                                        <span>Subtitle</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-4 GraphicDesign">
+                                                <div class="portfolio_single_content">
+                                                    <img src="img/portfolio/p8.jpg" alt="title"/>
+                                                    <div>
+                                                        <a href="#">Dirk Road</a>
+                                                        <span>Subtitle</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-4 websites">
+                                                <div class="portfolio_single_content">
+                                                    <img src="img/portfolio/p9.jpg" alt="title"/>
+                                                    <div>
+                                                        <a href="#">Old is Gold</a>
+                                                        <span>Subtitle</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End partners -->
+   
+            <!-- Begin contact section -->
+			<section id="contact-section" class="page text-white parallax" data-stellar-background-ratio="0.5" style="background-image: url(img/counter-bg.jpg);">
+            <div class="cover"></div>
+            
+                 <!-- Begin page header-->
+                <div class="page-header-wrapper">
+                    <div class="container">
+                        <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
+                            <h2>联系方式</h2>
+                            <div class="devider"></div>
+                            <p class="subtitle"></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End page header-->
+                
+                <div class="contact wow bounceInRight" data-wow-delay="0.4s">
+                    <div class="container">
+                    	<div class="row" >
+                        
+                            <div class="col-md-12">
+                                <div class="contact-info">                                  
+                                    <ul class="contact-address">
+			                            <li><i class="fa fa-map-marker fa-lg"></i>湖南长沙&nbsp; &nbsp; </li>
+										<li><i class="fa fa-qq"></i>1083499839&nbsp; &nbsp; </li>
+										<li><i class="fa fa-github"></i>Java-Engineer&nbsp; &nbsp; </li>
+			                            <li><i class="fa fa-phone"></i>187 **** 2722&nbsp; &nbsp; </li>
+			                            
+			                            <li><i class="fa fa-envelope"></i>1083499839@qq.com&nbsp; &nbsp; </li>
+			                            
+			                        </ul>
+                                </div>
+                            </div>
+                        
+                        	
+                                                                                
+                        </div> <!-- /.row -->
+                    </div> <!-- /.container -->
+                </div>
+            </section>
+            <!-- End contact section -->
+                
+                
+
+                
+            <!-- Begin footer -->
+            <footer class="text-off-white">
+            
+                
+                <div class="footer">
+                    <div class="container text-center wow fadeIn" data-wow-delay="0.4s">
+                        <p class="copyright">Copyright &copy; 2017 - 2027 &amp; 湖南长沙 </p>
+                    </div>
+                </div>
+
+            </footer>
+            <!-- End footer -->
+
+            <a href="#" class="scrolltotop"><i class="fa fa-arrow-up"></i></a> <!-- Scroll to top button -->
+                                              
+        </div><!-- body ends -->
+        
+        
+        
+        
+        <!-- Plugins JS -->
+		<script src="inc/jquery/jquery-1.11.1.min.js"></script>
+		<script src="inc/bootstrap/js/bootstrap.min.js"></script>
+		<script src="inc/owl-carousel/js/owl.carousel.min.js"></script>
+		<script src="inc/stellar/js/jquery.stellar.min.js"></script>
+		<script src="inc/animations/js/wow.min.js"></script>
+        <script src="inc/waypoints.min.js"></script>
+		<script src="inc/isotope.pkgd.min.js"></script>
+		<script src="inc/classie.js"></script>
+		<script src="inc/jquery.easing.min.js"></script>
+		<script src="inc/jquery.counterup.min.js"></script>
+		<script src="inc/smoothscroll.js"></script>
+
+		<!-- Theme JS -->
+		<script src="js/theme.js"></script>
+
+    </body> 
+        
+            
 </html>
