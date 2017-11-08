@@ -194,3 +194,10 @@ $(document).on('click','.navbar-collapse.in',function(e) {
         $(this).collapse('hide');
     }
 });
+
+$(".price-box").on('mouseover',function(e) {
+    $(this).addClass("price-box-featured");
+});
+$(".price-box").on('mouseout',function(e) {
+    $(this).removeClass("price-box-featured");
+});
