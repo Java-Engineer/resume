@@ -73,7 +73,7 @@ p {
 }
 
 
-.item p{
+#owl-intro-text .item p{
 	font-family:'Microsoft YaHei';
 	font-size:25px;
 	margin-top:20px ;
@@ -646,6 +646,7 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 }
 .testimonial-inner blockquote {
 	border: none;
+	min-height:500px;
 }
 .testimonial-inner blockquote p {
 	letter-spacing: 2px;
@@ -667,7 +668,7 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 .portfolio_menu{
 	text-align: center;
 	overflow: hidden;
-	margin-top:22px;
+	margin-top:0px;
 	margin-bottom:48px;
 }
 .portfolio_menu ul{
@@ -694,8 +695,37 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 	width: 100%;
 	z-index: 5;
 	margin-bottom:30px;
+	border:5px solid #FFFFFF;
+	-webkit-box-shadow:0px 1px 4px rgba(0,0,0,0.3);
+	box-shadow:0px 1px 4px rgba(0,0,0,0.3);
 	overflow:hidden;
 	
+}
+
+.portfolio_single_content:before{
+	content:'4545645';
+	position:absolute;
+	z-index:-2;
+	width:95%;
+	height:80%;
+	left:20px;
+	bottom:8px;
+	background-color:#000000;
+	-webkit-box-shadow:0px 20px 20px rgba(0,0,0,0.6);
+	box-shadow:0px 20px 20px rgba(0,0,0,0.6);
+	transform:skew(-12deg) rotate(-4deg);
+}
+.portfolio_single_content:after{
+	content:'';
+	position:absolute;
+	z-index:-1;
+	width:90%;
+	height:80%;
+	right:20px;
+	bottom:8px;
+	-webkit-box-shadow:0px 8px 20px rgba(0,0,0,0.6);
+	box-shadow:0px 8px 20px rgba(0,0,0,0.6);
+	transform:skew(12deg) rotate(4deg);
 }
 .portfolio_single_content:hover img{
 	 -o-transform: scale(2);
@@ -902,7 +932,7 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 }
 .prices .panel-body .lead {
 	margin: 0;
-	font-size: 48px;
+	font-size: 20px;
 }
 .prices .panel-footer {
 	padding: 25px 15px;
