@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>我的相册</title>
+<meta name="keywords" content="free css website template, about us, our company, gift red, CSS, HTML" />
+<meta name="description" content="free website template provided by templatemo.com" />
+<link href="templatemo_style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css"> <!-- Font Icons -->
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/default.css">
+    <link rel="stylesheet" href="css/demo.css">
+    <link rel="stylesheet" href="src/css/jquery.flipster.css">
+    <link rel="stylesheet" href="css/flipsternavtabs.css">
+    <style type="text/css">
+
+        .lala:hover{
+            border: 1px solid #ff0000;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<div id="templatemo_wrapper">
+	<div id="templatemo_header">
+    
+    	<div id="site_title"><h1><a href="http://www.cssmoban.com">Free CSS Templates</a></h1></div>
+        <div id="templatemo_menu">
+            <ul>
+                <li><a href="index.html" ><i class="fa fa-home" aria-hidden="true"></i> 首页</a></li>
+                <li><a href="products.html" ><i class="fa fa-heart" aria-hidden="true"></i> 慢生活</a></li>
+                <li><a href="services.html"><i class="fa fa-pencil" aria-hidden="true"></i> 每日一语</a></li>
+                <li><a href="about.html" class="current"> <i class="fa fa-picture-o" aria-hidden="true"></i>  我的相册</a></li>
+                <li class="last"><a href="contact.html" ><i class="fa fa-comment" aria-hidden="true"></i> 留言板</a></li>
+            </ul>
+        </div> <!-- end of templatemo_menu -->
+        <div id="templatemo_banner">
+        	<span class="banner_text"></span>
+        </div>
+    	
+    </div> <!-- end of header -->
+    <div id="templatemo_content">
+
+        <div  class="addw">
+            <div class="content_title"><span></span><i class="fa fa-picture-o" aria-hidden="true"></i> 每一张照片，都有一段属于它的故事。</div>
+                <div class="zzsc-content">
+                    <div id="Main-Content">
+                        <div class="Container">
+                            <!-- Flipster List -->
+                            <div class="flipster">
+                                <ul class="flip-items">
+                                    <li id="Coverflow-1" title="国色天香" data-flip-category="许我偷偷稀饭你">
+                                        <img class="lala" src="images/1.jpg">
+                                    </li>
+                                    <li id="Coverflow-2" title="慧质兰心" data-flip-category="原来你也在这里">
+                                        <img src="images/2.jpg">
+                                    </li>
+                                    <li id="Coverflow-3" title="嫣然一笑" data-flip-category="小水的白衬衣">
+                                        <img src="images/3.jpg">
+                                    </li>
+                                    <li id="Coverflow-4" title="倾国倾城" data-flip-category="小水的白衬衣">
+                                        <img src="images/4.jpg">
+                                    </li>
+                                    <li id="Coverflow-7" title="闭月羞花" data-flip-category="小水的白衬衣">
+                                        <img src="images/5.jpg">
+                                    </li>
+                                    <li id="Coverflow-5" title="娇羞可爱" data-flip-category="原来你也在这里">
+                                        <img src="images/6.jpg">
+                                    </li>
+                                    <li id="Coverflow-6" title="微微一笑很倾城" data-flip-category="许我偷偷稀饭你">
+                                        <img src="images/7.jpg">
+                                    </li>
+                                    <li id="Coverflow-8" title="温文尔雅" data-flip-category="小水的白衬衣">
+                                        <img src="images/8.jpg">
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <!-- End Flipster List -->
+
+                        </div>
+                    </div>
+                </div>
+
+          </div>
+
+    </div>
+    
+</div> <!-- end of wrapper -->
+
+<div id="templatemo_footer_wrapper">
+    <div id="templatemo_footer">
+        Copyright © 2017
+        <div class="cleaner"></div>
+    </div>
+</div>
+<script type="text/javascript" src="src/js/jquery-1.8.3.min.js"></script>
+<script src="src/js/jquery.flipster.js"></script>
+<script>
+    $(function(){
+        $(".flipster").flipster({
+            itemContainer: 			'ul', // Container for the flippin' items.
+            itemSelector: 			'li', // Selector for children of itemContainer to flip
+            style:							'carousel', // Switch between 'coverflow' or 'carousel' display styles
+            start: 							0, // Starting item. Set to 0 to start at the first, 'center' to start in the middle or the index of the item you want to start with.
+
+            enableKeyboard: 		true, // Enable left/right arrow navigation
+            enableMousewheel: 	true, // Enable scrollwheel navigation (up = left, down = right)
+            enableTouch: 				true, // Enable swipe navigation for touch devices
+
+            enableNav: 					true, // If true, flipster will insert an unordered list of the slides
+            enableNavButtons: 	true, // If true, flipster will insert Previous / Next buttons
+
+            onItemSwitch: 			function(){} // Callback function when items are switches
+        });
+    });
+
+</script>
+</body>
+</html>

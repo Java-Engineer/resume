@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>我的相册</title>
+<meta name="keywords" content="free css website template, about us, our company, gift red, CSS, HTML" />
+<meta name="description" content="free website template provided by templatemo.com" />
+<link href="templatemo_style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css"> <!-- Font Icons -->
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <style type="text/css">
+
+        .lala:hover{
+            border: 1px solid #ff0000;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<div id="templatemo_wrapper">
+	<div id="templatemo_header">
+    
+    	<div id="site_title"><h1><a href="http://www.cssmoban.com">Free CSS Templates</a></h1></div>
+        <div id="templatemo_menu">
+            <ul>
+                <li><a href="index.html" ><i class="fa fa-home" aria-hidden="true"></i> 首页</a></li>
+                <li><a href="products.html" ><i class="fa fa-heart" aria-hidden="true"></i> 慢生活</a></li>
+                <li><a href="services.html"><i class="fa fa-pencil" aria-hidden="true"></i> 每日一语</a></li>
+                <li><a href="about.html" class="current"> <i class="fa fa-picture-o" aria-hidden="true"></i>  我的相册</a></li>
+                <li class="last"><a href="contact.html" ><i class="fa fa-comment" aria-hidden="true"></i> 留言板</a></li>
+            </ul>
+        </div> <!-- end of templatemo_menu -->
+        <div id="templatemo_banner">
+        	<span class="banner_text"></span>
+        </div>
+    	
+    </div> <!-- end of header -->
+    <div id="templatemo_content">
+
+        <div  class="addw">
+            <div class="content_title"><span></span><i class="fa fa-picture-o" aria-hidden="true"></i> 每一张照片，都有一段属于它的故事。</div>
+             <div id="contact_form">
+
+                     <h2 style="color: #ffffff">登录</h2>
+                     <div style="color: yellow;margin-bottom: 40px" id="ts">提示：此功能涉及隐私，需要验证用户</div>
+
+                      <input type="password" id="user" placeholder="请输入你的密码" name="user" class="required input_field" /><br><br/>
+                     <button id="tj" class="submit_btn" >验证 <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></button>
+
+             </div>
+          </div>
+
+    </div>
+    
+</div> <!-- end of wrapper -->
+
+<div id="templatemo_footer_wrapper">
+    <div id="templatemo_footer">
+        Copyright © 2017
+        <div class="cleaner"></div>
+    </div>
+</div>
+
+<script>
+
+$("#tj").on('click',function(){
+   var user = $("#user").val();
+    if(user == '19960609'){
+        $(location).attr('href','photo.html');
+    }else{
+        $("#ts").css('color','red');
+        $("#ts").html("提示：你输入的密码错误！");
+    }
+});
+</script>
+</body>
+</html>
