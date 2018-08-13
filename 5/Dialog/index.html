@@ -1,15 +1,15 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+ï»¿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
-<title>jquery¶à¹¦ÄÜĞ¡ÇÉ¶Ô»°¿ò</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>jqueryå¤šåŠŸèƒ½å°å·§å¯¹è¯æ¡†</title>
 <link id="artDialog-skin" href="skins/default.css" rel="stylesheet" />
 <script src="source/artDialog.js" type="text/javascript"></script>
 <script type="text/javascript">
 (function (d) {
-    d['okValue'] = 'È·¶¨';
-    d['cancelValue'] = 'È¡Ïû';
-    d['title'] = 'ÏûÏ¢';
+    d['okValue'] = 'ç¡®å®š';
+    d['cancelValue'] = 'å–æ¶ˆ';
+    d['title'] = 'æ¶ˆæ¯';
     // [more..]
 })(art.dialog.defaults);
 </script>
@@ -89,7 +89,7 @@ h1.title strong:after, #index, #print, .runCode, .button, #skin-menu { display:n
 }
 </style>
 
-<!-- Dw ·ç¸ñ´úÂë¸ßÁÁ -->
+<!-- Dw é£æ ¼ä»£ç é«˜äº® -->
 <style type="text/css">
 pre.sh_sourceCode { color: #000000; font-weight: normal; font-style: normal; }
 pre.sh_sourceCode .sh_keyword { color: #009; font-weight: bold; font-style: normal; }
@@ -126,35 +126,35 @@ pre.sh_sourceCode .sh_predef_func { color: #099; font-weight: normal; font-style
 <div id="header">
   <h1 class="title"><strong>artDialog&#8482;</strong><span id="artVersion"></span></h1>
   <div class="summary" id="summary">
-    <p>artDialog ÊÇÒ»¸öÉè¼ÆµÃÊ®·ÖÇÉÃîµÄ¶Ô»°¿ò×é¼ş£¬Ğ¡ÇÉÉí²ÄÈ´ÓµÓĞ·á¸»µÄ½Ó¿ÚÓëÆ¯ÁÁµÄÍâ¹Û¡£</p>
+    <p>artDialog æ˜¯ä¸€ä¸ªè®¾è®¡å¾—ååˆ†å·§å¦™çš„å¯¹è¯æ¡†ç»„ä»¶ï¼Œå°å·§èº«æå´æ‹¥æœ‰ä¸°å¯Œçš„æ¥å£ä¸æ¼‚äº®çš„å¤–è§‚ã€‚</p>
     <ul>
-      <li>×ÔÊÊÓ¦ÄÚÈİ</li>
-      <li>ÓÅÑÅµÄ½Ó¿Ú</li>
-      <li>Ï¸ÖÂµÄÌåÑé</li>
-      <li>¿çÆ½Ì¨¼æÈİ</li>
+      <li>è‡ªé€‚åº”å†…å®¹</li>
+      <li>ä¼˜é›…çš„æ¥å£</li>
+      <li>ç»†è‡´çš„ä½“éªŒ</li>
+      <li>è·¨å¹³å°å…¼å®¹</li>
     </ul>
-    <p id="skin-menu"><a id="showSkinDialog" class="button" href="javascript:;">Æ¤·ôÑİÊ¾+</a> <span id="selectSkinValue">default</span></p>
+    <p id="skin-menu"><a id="showSkinDialog" class="button" href="javascript:;">çš®è‚¤æ¼”ç¤º+</a> <span id="selectSkinValue">default</span></p>
   </div>
 </div>
 <div id="main">
   <div id="index" class="card">
-    <h2>ÎÄµµË÷Òı</h2>
+    <h2>æ–‡æ¡£ç´¢å¼•</h2>
     <ul>
       <li>
-        <h3><a href="#lead">¿ìËÙÉÏÊÖ</a></h3>
+        <h3><a href="#lead">å¿«é€Ÿä¸Šæ‰‹</a></h3>
       </li>
       <li>
-        <h3><a href="#options">ÅäÖÃ²ÎÊı</a></h3>
+        <h3><a href="#options">é…ç½®å‚æ•°</a></h3>
         <ul>
           <li>
-            <h4>ÄÚÈİ</h4>
+            <h4>å†…å®¹</h4>
             <ul>
               <li><a href="#options-title">title</a></li>
               <li><a href="#options-content">content</a></li>
             </ul>
           </li>
           <li>
-            <h4>°´Å¥</h4>
+            <h4>æŒ‰é’®</h4>
             <ul>
               <li><a href="#options-ok" class="change">ok</a></li>
               <li><a href="#options-cancel" class="change">cancel</a></li>
@@ -164,28 +164,28 @@ pre.sh_sourceCode .sh_predef_func { color: #099; font-weight: normal; font-style
             </ul>
           </li>
           <li>
-            <h4>³ß´ç</h4>
+            <h4>å°ºå¯¸</h4>
             <ul>
               <li><a href="#options-width">width</a></li>
               <li><a href="#options-height">height</a></li>
             </ul>
           </li>
           <li>
-            <h4>Î»ÖÃ</h4>
+            <h4>ä½ç½®</h4>
             <ul>
               <li><a href="#options-fixed">fixed</a><a href="#width"></a></li>
               <li><a href="#options-follow">follow</a><a href="#height"></a></li>
             </ul>
           </li>
           <li>
-            <h4>ÊÓ¾õ</h4>
+            <h4>è§†è§‰</h4>
             <ul>
               <li><a href="#options-lock">lock</a><a href="#fixed"></a><a href="#width"></a></li>
               <li><a href="#options-padding">padding</a></li>
             </ul>
           </li>
           <li>
-            <h4>¸ß¼¶</h4>
+            <h4>é«˜çº§</h4>
             <ul>
               <li><a href="#options-id">id</a></li>
               <li><a href="#options-zIndex">zIndex</a></li>
@@ -200,7 +200,7 @@ pre.sh_sourceCode .sh_predef_func { color: #099; font-weight: normal; font-style
         </ul>
       </li>
       <li>
-        <h3><a href="#api">½Ó¿Ú</a></h3>
+        <h3><a href="#api">æ¥å£</a></h3>
         <ul>
           <li><a href="#api-get" class="change">art.dialog.get(id)</a></li>
           <li><a href="#api-closed" class="change">closed</a></li>
@@ -218,100 +218,100 @@ pre.sh_sourceCode .sh_predef_func { color: #099; font-weight: normal; font-style
         </ul>
       </li>
       <li>
-        <h3><a href="#plugins">²å¼ş</a></h3>
+        <h3><a href="#plugins">æ’ä»¶</a></h3>
       </li>
     </ul>
   </div>
   <div id="lead" class="card">
-    <h2>¿ìËÙÉÏÊÖ</h2>
-    <p>artDialog api ·ç¸ñÍ³Ò»£¬ÓĞÒ»¶¨Ç°¶Ë¿ª·¢¾­ÑéµÄÍ¬Ñ§Í¨¹ıÔÄ¶ÁÎÄµµ5·ÖÖÓ¼´¿ÉÉÏÊÖ¡£
-      <button id="showChange" class="button">¸ßÁÁÏÔÊ¾¸ü¸Ä</button>
+    <h2>å¿«é€Ÿä¸Šæ‰‹</h2>
+    <p>artDialog api é£æ ¼ç»Ÿä¸€ï¼Œæœ‰ä¸€å®šå‰ç«¯å¼€å‘ç»éªŒçš„åŒå­¦é€šè¿‡é˜…è¯»æ–‡æ¡£5åˆ†é’Ÿå³å¯ä¸Šæ‰‹ã€‚
+      <button id="showChange" class="button">é«˜äº®æ˜¾ç¤ºæ›´æ”¹</button>
     </p>
-    <h3>ÒıÈëÎÄ¼ş</h3>
-    <p>ÔÚÒ³Ãæ head ÒıÈë artDialog ÑùÊ½Óë½Å±¾ÎÄ¼ş:</p>
+    <h3>å¼•å…¥æ–‡ä»¶</h3>
+    <p>åœ¨é¡µé¢ head å¼•å…¥ artDialog æ ·å¼ä¸è„šæœ¬æ–‡ä»¶:</p>
     <pre class="sh_javascript">&lt;link href="./skins/default.css" rel="stylesheet" /&gt;
 &lt;script src="./artDialog.min.js"&gt;&lt;/script&gt;</pre>
-    <h3>µ÷ÓÃ·½Ê½</h3>
+    <h3>è°ƒç”¨æ–¹å¼</h3>
     <ol>
       <li>
         <p><strong>art.dialog</strong>(<em>content</em>, <em>[ok]</em>, <em>[cancel]</em>)</p>
         <pre class="sh_javascript" id="lead-demo-1">art.dialog('artDialog: I Love You!', function () {alert('Thank you!')});
   </pre>
-        <a class="runCode" href="#lead-demo-1">ÔËĞĞ</a> </li>
+        <a class="runCode" href="#lead-demo-1">è¿è¡Œ</a> </li>
       <li>
         <p><strong>art.dialog</strong>(<em>options</em>)</p>
         <pre class="sh_javascript" id="lead-demo-2">art.dialog({
-    title: '»¶Ó­',
-    content: '»¶Ó­Ê¹ÓÃartDialog¶Ô»°¿ò×é¼ş£¡',
+    title: 'æ¬¢è¿',
+    content: 'æ¬¢è¿ä½¿ç”¨artDialogå¯¹è¯æ¡†ç»„ä»¶ï¼',
     ok: function () {
         this
-        .title('¾¯¸æ')
-        .content('Çë×¢ÒâartDialogÁ½Ãëºó½«¹Ø±Õ£¡')
+        .title('è­¦å‘Š')
+        .content('è¯·æ³¨æ„artDialogä¸¤ç§’åå°†å…³é—­ï¼')
         .lock()
         .time(2000);
         return false;
     }
 });
   </pre>
-        <a class="runCode" href="#lead-demo-2">ÔËĞĞ</a> </li>
+        <a class="runCode" href="#lead-demo-2">è¿è¡Œ</a> </li>
     </ol>
-    <p>artDialog ÓĞÁ½ÖÖµ÷ÓÃ·½Ê½£¬µÚÒ»ÖÖÊÇ×î¼òµ¥µÄÖ±½Ó´«Èë²ÎÊı·½Ê½£»µÚ¶şÖÖÓµÓĞ¸ü¶àµÄ¿ÉÑ¡Ïî£¬²Î¼û <a href="#options">ÅäÖÃ²ÎÊı</a>¡£</p>
-    <p><a href="javascript:;" style="cursor:help" title="ÒıÓÃ jquery.artDialog.min.js ¼´¿É£¬µ÷ÓÃÊ±°Ñ 'art' Ç°×ºÌæ»»³É '$'¡£jQuery °æ±¾Ö§³Ö 1.32 +">[Ê¹ÓÃjQuery?]</a></p>
-    <h3>À©Õ¹½Ó¿Ú</h3>
-    <p>³ıÁËÉÏÊöÁ½ÖÖµ÷ÓÃ·½Ê½Ö®Íâ£¬artDialog »¹Ìá¹©Ò»Ğ©½Ó¿Ú·½±ãÒì²½²Ù×÷£¬±ÈÈçÊµÏÖÍâ²¿³ÌĞò¸üĞÂ¶Ô»°¿òÄÚÈİ¡¢¹Ø±Õ´°¿ÚµÈ¡£ÕâÊÇÊôÓÚ¸ß¼¶²Ù×÷£¬ÏêÇé²Î¼û <a href="#api">½Ó¿Ú</a>¡£</p>
-    <p>ÈôÎŞÌØ±ğËµÃ÷£¬À©Õ¹·½·¨¾ùÖ§³ÖÁ´Ê½µ÷ÓÃ¡£</p>
+    <p>artDialog æœ‰ä¸¤ç§è°ƒç”¨æ–¹å¼ï¼Œç¬¬ä¸€ç§æ˜¯æœ€ç®€å•çš„ç›´æ¥ä¼ å…¥å‚æ•°æ–¹å¼ï¼›ç¬¬äºŒç§æ‹¥æœ‰æ›´å¤šçš„å¯é€‰é¡¹ï¼Œå‚è§ <a href="#options">é…ç½®å‚æ•°</a>ã€‚</p>
+    <p><a href="javascript:;" style="cursor:help" title="å¼•ç”¨ jquery.artDialog.min.js å³å¯ï¼Œè°ƒç”¨æ—¶æŠŠ 'art' å‰ç¼€æ›¿æ¢æˆ '$'ã€‚jQuery ç‰ˆæœ¬æ”¯æŒ 1.32 +">[ä½¿ç”¨jQuery?]</a></p>
+    <h3>æ‰©å±•æ¥å£</h3>
+    <p>é™¤äº†ä¸Šè¿°ä¸¤ç§è°ƒç”¨æ–¹å¼ä¹‹å¤–ï¼ŒartDialog è¿˜æä¾›ä¸€äº›æ¥å£æ–¹ä¾¿å¼‚æ­¥æ“ä½œï¼Œæ¯”å¦‚å®ç°å¤–éƒ¨ç¨‹åºæ›´æ–°å¯¹è¯æ¡†å†…å®¹ã€å…³é—­çª—å£ç­‰ã€‚è¿™æ˜¯å±äºé«˜çº§æ“ä½œï¼Œè¯¦æƒ…å‚è§ <a href="#api">æ¥å£</a>ã€‚</p>
+    <p>è‹¥æ— ç‰¹åˆ«è¯´æ˜ï¼Œæ‰©å±•æ–¹æ³•å‡æ”¯æŒé“¾å¼è°ƒç”¨ã€‚</p>
   </div>
   <div id="options" class="card">
-    <h2>ÅäÖÃ²ÎÊı</h2>
+    <h2>é…ç½®å‚æ•°</h2>
     <ul>
       <li>
         <h3 id="options-title">title</h3>
         <dl>
-          <dt>¸ÅÊö</dt>
-          <dd> (Ä¬ÈÏÖµ: "message") ±êÌâÄÚÈİ</dd>
-          <dt>ÀàĞÍ</dt>
+          <dt>æ¦‚è¿°</dt>
+          <dd> (é»˜è®¤å€¼: "message") æ ‡é¢˜å†…å®¹</dd>
+          <dt>ç±»å‹</dt>
           <dd>String</dd>
-          <dt>Ê¾Àı</dt>
+          <dt>ç¤ºä¾‹</dt>
           <dd>
             <pre id="options-title-demo" class="sh_javascript">art.dialog({
     title: 'hello world!'
 });</pre>
-            <a class="runCode" href="#options-title-demo">ÔËĞĞ</a></dd>
+            <a class="runCode" href="#options-title-demo">è¿è¡Œ</a></dd>
         </dl>
       </li>
       <li>
         <h3 id="options-content">content</h3>
         <dl>
-          <dt>¸ÅÊö</dt>
-          <dd> (Ä¬ÈÏÖµ: "&lt;div class="d-loading"&gt;&lt;span&gt;loading..&lt;/span&gt;&lt;/div&gt;") ÉèÖÃÏûÏ¢ÄÚÈİ¡£<br />
+          <dt>æ¦‚è¿°</dt>
+          <dd> (é»˜è®¤å€¼: "&lt;div class="d-loading"&gt;&lt;span&gt;loading..&lt;/span&gt;&lt;/div&gt;") è®¾ç½®æ¶ˆæ¯å†…å®¹ã€‚<br />
             <br />
-            Èç¹û´«ÈëµÄÊÇ HTMLElement ÀàĞÍ£¬Èç¹ûÊÇÒş²ØÔªËØ»á¸øÆäÉèÖÃdisplay:blockÒÔÏÔÊ¾¸ÃÔªËØ£¬ÆäËûÊôĞÔÓë°ó¶¨µÄÊÂ¼ş¶¼»áÍêÕû±£Áô£¬¶Ô»°¿ò¹Ø±Õºó´ËÔªËØÓÖ½«»Ö¸´Ô­À´µÄdisplayÊôĞÔ£¬²¢ÇÒÖØĞÂ²åÈëÔ­ÎÄµµËùÔÚÎ»ÖÃ</dd>
-          <dt>ÀàĞÍ</dt>
+            å¦‚æœä¼ å…¥çš„æ˜¯ HTMLElement ç±»å‹ï¼Œå¦‚æœæ˜¯éšè—å…ƒç´ ä¼šç»™å…¶è®¾ç½®display:blockä»¥æ˜¾ç¤ºè¯¥å…ƒç´ ï¼Œå…¶ä»–å±æ€§ä¸ç»‘å®šçš„äº‹ä»¶éƒ½ä¼šå®Œæ•´ä¿ç•™ï¼Œå¯¹è¯æ¡†å…³é—­åæ­¤å…ƒç´ åˆå°†æ¢å¤åŸæ¥çš„displayå±æ€§ï¼Œå¹¶ä¸”é‡æ–°æ’å…¥åŸæ–‡æ¡£æ‰€åœ¨ä½ç½®</dd>
+          <dt>ç±»å‹</dt>
           <dd>String, HTMLElement</dd>
-          <dt>Ê¾Àı</dt>
+          <dt>ç¤ºä¾‹</dt>
           <dd>
             <pre id="options-content-demo-string" class="sh_javascript">art.dialog({
     content: 'hello world!'
 });</pre>
-            <a class="runCode" href="#options-content-demo-string">ÔËĞĞ</a></dd>
+            <a class="runCode" href="#options-content-demo-string">è¿è¡Œ</a></dd>
           <dd>
             <pre id="options-content-demo-element" class="sh_javascript">art.dialog({
     content: document.getElementById('options-content-demo-element'),
     id: 'EF893L'
 });</pre>
-            <a class="runCode" href="#options-content-demo-element">ÔËĞĞ</a></dd>
+            <a class="runCode" href="#options-content-demo-element">è¿è¡Œ</a></dd>
         </dl>
       </li>
       <li>
         <h3 id="options-ok"><span class="change">ok</span></h3>
         <dl>
-          <dt>¸ÅÊö</dt>
-          <dd>È·¶¨°´Å¥¡£<br />
+          <dt>æ¦‚è¿°</dt>
+          <dd>ç¡®å®šæŒ‰é’®ã€‚<br />
             <br />
-            »Øµ÷º¯Êı this Ö¸Ïò art.dialog ¶ÔÏó£¬Ö´ĞĞÍê±ÏÄ¬ÈÏ¹Ø±Õ¶Ô»°¿ò£¬Èô·µ»Ø false Ôò×èÖ¹¹Ø±Õ </dd>
-          <dt>ÀàĞÍ</dt>
+            å›è°ƒå‡½æ•° this æŒ‡å‘ art.dialog å¯¹è±¡ï¼Œæ‰§è¡Œå®Œæ¯•é»˜è®¤å…³é—­å¯¹è¯æ¡†ï¼Œè‹¥è¿”å› false åˆ™é˜»æ­¢å…³é—­ </dd>
+          <dt>ç±»å‹</dt>
           <dd>Function</dd>
-          <dt>Ê¾Àı</dt>
+          <dt>ç¤ºä¾‹</dt>
           <dd>
             <pre id="options-ok-demo" class="sh_javascript">art.dialog({
     ok: function () {
@@ -319,105 +319,105 @@ pre.sh_sourceCode .sh_predef_func { color: #099; font-weight: normal; font-style
         return false;
     }
 });</pre>
-            <a class="runCode" href="#options-ok-demo">ÔËĞĞ</a> </dd>
+            <a class="runCode" href="#options-ok-demo">è¿è¡Œ</a> </dd>
         </dl>
       </li>
       <li>
         <h3 id="options-cancel"><span class="change">cancel</span></h3>
         <dl>
-          <dt>¸ÅÊö</dt>
-          <dd>È¡Ïû°´Å¥¡£<br />
+          <dt>æ¦‚è¿°</dt>
+          <dd>å–æ¶ˆæŒ‰é’®ã€‚<br />
             <br />
-            È¡Ïû°´Å¥Ò²µÈÍ¬ÓÚ±êÌâÀ¸µÄ¹Ø±Õ°´Å¥¡£»Øµ÷º¯Êı this Ö¸Ïò art.dialog ¶ÔÏó£¬Ö´ĞĞÍê±ÏÄ¬ÈÏ¹Ø±Õ¶Ô»°¿ò£¬Èô·µ»Ø false Ôò×èÖ¹¹Ø±Õ </dd>
-          <dt>ÀàĞÍ</dt>
+            å–æ¶ˆæŒ‰é’®ä¹Ÿç­‰åŒäºæ ‡é¢˜æ çš„å…³é—­æŒ‰é’®ã€‚å›è°ƒå‡½æ•° this æŒ‡å‘ art.dialog å¯¹è±¡ï¼Œæ‰§è¡Œå®Œæ¯•é»˜è®¤å…³é—­å¯¹è¯æ¡†ï¼Œè‹¥è¿”å› false åˆ™é˜»æ­¢å…³é—­ </dd>
+          <dt>ç±»å‹</dt>
           <dd>Function</dd>
-          <dt>Ê¾Àı</dt>
+          <dt>ç¤ºä¾‹</dt>
           <dd>
             <pre id="options-cancel-demo" class="sh_javascript">art.dialog({
     cancel: function () {
-        alert('¹Ø±Õ');
+        alert('å…³é—­');
     }
 });</pre>
-            <a class="runCode" href="#options-cancel-demo">ÔËĞĞ</a> </dd>
+            <a class="runCode" href="#options-cancel-demo">è¿è¡Œ</a> </dd>
         </dl>
       </li>
       <li>
         <h3 id="options-okValue"><span class="change">okValue</span></h3>
         <dl>
-          <dt>¸ÅÊö</dt>
-          <dd> (Ä¬ÈÏÖµ: "ok")  È·¶¨°´Å¥ÎÄ±¾</dd>
-          <dt>ÀàĞÍ</dt>
+          <dt>æ¦‚è¿°</dt>
+          <dd> (é»˜è®¤å€¼: "ok")  ç¡®å®šæŒ‰é’®æ–‡æœ¬</dd>
+          <dt>ç±»å‹</dt>
           <dd>String</dd>
-          <dt>Ê¾Àı</dt>
+          <dt>ç¤ºä¾‹</dt>
           <dd>
             <pre id="options-okValue-demo" class="sh_javascript">art.dialog({
-    okValue: 'ÃÍ»÷ÎÒ',
+    okValue: 'çŒ›å‡»æˆ‘',
     ok: function () {
         this.content('hello world!');
         return false;
     }
 });</pre>
-            <a class="runCode" href="#options-okValue-demo">ÔËĞĞ</a> </dd>
+            <a class="runCode" href="#options-okValue-demo">è¿è¡Œ</a> </dd>
         </dl>
       </li>
       <li>
         <h3 id="options-cancelValue"><span class="change">cancelValue</span></h3>
         <dl>
-          <dt>¸ÅÊö</dt>
-          <dd> (Ä¬ÈÏÖµ: cancel) È¡Ïû°´Å¥ÎÄ±¾</dd>
-          <dt>ÀàĞÍ</dt>
+          <dt>æ¦‚è¿°</dt>
+          <dd> (é»˜è®¤å€¼: cancel) å–æ¶ˆæŒ‰é’®æ–‡æœ¬</dd>
+          <dt>ç±»å‹</dt>
           <dd>String</dd>
-          <dt>Ê¾Àı</dt>
+          <dt>ç¤ºä¾‹</dt>
           <dd>
             <pre id="options-cancelValue-demo" class="sh_javascript">art.dialog({
-    cancelValue: 'È¡ÏûÎÒ',
+    cancelValue: 'å–æ¶ˆæˆ‘',
     cancel: function () {
-        alert('¹Ø±Õ');
+        alert('å…³é—­');
     }
 });</pre>
-            <a class="runCode" href="#options-cancelValue-demo">ÔËĞĞ</a> </dd>
+            <a class="runCode" href="#options-cancelValue-demo">è¿è¡Œ</a> </dd>
         </dl>
       </li>
       <li>
         <h3 id="options-button"><span class="change">button</span></h3>
         <dl>
-          <dt>¸ÅÊö</dt>
+          <dt>æ¦‚è¿°</dt>
           <dd>
-            <p>×Ô¶¨Òå°´Å¥×é¡£<br />
+            <p>è‡ªå®šä¹‰æŒ‰é’®ç»„ã€‚<br />
               <br />
-              »Øµ÷º¯Êı this Ö¸Ïò art.dialog ¶ÔÏó£¬Ö´ĞĞÍê±ÏÄ¬ÈÏ¹Ø±Õ¶Ô»°¿ò£¬Èô·µ»Ø false Ôò×èÖ¹¹Ø±Õ</p>
+              å›è°ƒå‡½æ•° this æŒ‡å‘ art.dialog å¯¹è±¡ï¼Œæ‰§è¡Œå®Œæ¯•é»˜è®¤å…³é—­å¯¹è¯æ¡†ï¼Œè‹¥è¿”å› false åˆ™é˜»æ­¢å…³é—­</p>
           </dd>
-          <dt>ÀàĞÍ</dt>
+          <dt>ç±»å‹</dt>
           <dd>Array</dd>
-          <dt>Ñ¡Ïî</dt>
+          <dt>é€‰é¡¹</dt>
           <dd>
             <dl>
               <dt title="String"><span class="change">value</span></dt>
-              <dd>°´Å¥ÏÔÊ¾ÎÄ±¾</dd>
+              <dd>æŒ‰é’®æ˜¾ç¤ºæ–‡æœ¬</dd>
               <dt title="Function">callback</dt>
-              <dd>(¿ÉÑ¡) °´Å¥µã»÷ºóµÄ»Øµ÷º¯Êı¡£»Øµ÷º¯Êı this Ö¸Ïò art.dialog ¶ÔÏó£¬Ö´ĞĞÍê±ÏÄ¬ÈÏ¹Ø±Õ¶Ô»°¿ò£¬Èô·µ»Ø false Ôò×èÖ¹¹Ø±Õ</dd>
+              <dd>(å¯é€‰) æŒ‰é’®ç‚¹å‡»åçš„å›è°ƒå‡½æ•°ã€‚å›è°ƒå‡½æ•° this æŒ‡å‘ art.dialog å¯¹è±¡ï¼Œæ‰§è¡Œå®Œæ¯•é»˜è®¤å…³é—­å¯¹è¯æ¡†ï¼Œè‹¥è¿”å› false åˆ™é˜»æ­¢å…³é—­</dd>
               <dt title="Boolean">focus</dt>
-              <dd>(Ä¬ÈÏÖµ: true) ÊÇ·ñ¾Û½¹</dd>
+              <dd>(é»˜è®¤å€¼: true) æ˜¯å¦èšç„¦</dd>
               <dt title="String"><span class="change">width</span></dt>
-              <dd>(¿ÉÑ¡) ÉèÖÃ°´Å¥ CSS width Öµ</dd>
+              <dd>(å¯é€‰) è®¾ç½®æŒ‰é’® CSS width å€¼</dd>
               <dt title="Boolean">disabled</dt>
-              <dd>(Ä¬ÈÏÖµ: false) ÊÇ·ñ½ûÓÃ</dd>
+              <dd>(é»˜è®¤å€¼: false) æ˜¯å¦ç¦ç”¨</dd>
               <dt title="String"><span class="change">id</span></dt>
-              <dd>(Ä¬ÈÏÖµ: Óë value Ò»ÖÂ) Î¨Ò»±êÊ¶</dd>
+              <dd>(é»˜è®¤å€¼: ä¸ value ä¸€è‡´) å”¯ä¸€æ ‡è¯†</dd>
             </dl>
           </dd>
-          <dt>Ê¾Àı</dt>
+          <dt>ç¤ºä¾‹</dt>
           <dd>
             <pre id="options-button-demo" class="sh_javascript">art.dialog({
     button: [
         {
-            value: 'Í¬Òâ',
+            value: 'åŒæ„',
             callback: function () {
                 this
-                .content('ÄãÍ¬ÒâÁË')
+                .content('ä½ åŒæ„äº†')
                 .button({
                     id: 'button-disabled',
-                    value: 'ÎÒ±ä³ÉÓĞĞ§°´Å¥ÁË',
+                    value: 'æˆ‘å˜æˆæœ‰æ•ˆæŒ‰é’®äº†',
                     disabled: false
                  });
                 return false;
@@ -425,300 +425,300 @@ pre.sh_sourceCode .sh_predef_func { color: #099; font-weight: normal; font-style
             focus: true
         },
         {
-            value: '²»Í¬Òâ',
+            value: 'ä¸åŒæ„',
             callback: function () {
-                alert('Äã²»Í¬Òâ')
+                alert('ä½ ä¸åŒæ„')
             }
         },
         {
             id: 'button-disabled',
-            value: 'ÎŞĞ§°´Å¥',
+            value: 'æ— æ•ˆæŒ‰é’®',
             disabled: true
         },
         {
-            value: '¹Ø±ÕÎÒ'
+            value: 'å…³é—­æˆ‘'
         }
     ]
 });</pre>
-            <a class="runCode" href="#options-button-demo">ÔËĞĞ</a></dd>
+            <a class="runCode" href="#options-button-demo">è¿è¡Œ</a></dd>
         </dl>
       </li>
       <li>
         <h3 id="options-width">width</h3>
         <dl>
-          <dt>¸ÅÊö</dt>
-          <dd>(Ä¬ÈÏÖµ: "auto") ÉèÖÃ¶Ô»°¿ò <strong>ÄÚÈİ</strong> ¿í¶È¡£<br />
+          <dt>æ¦‚è¿°</dt>
+          <dd>(é»˜è®¤å€¼: "auto") è®¾ç½®å¯¹è¯æ¡† <strong>å†…å®¹</strong> å®½åº¦ã€‚<br />
             <br />
-            Ò»°ãÇé¿öÏÂÎŞĞèÉèÖÃ´ËÖµ£¬¶Ô»°¿ò»á×ÔÊÊÓ¦ÄÚÈİ¿í¶È</dd>
-          <dt>ÀàĞÍ</dt>
+            ä¸€èˆ¬æƒ…å†µä¸‹æ— éœ€è®¾ç½®æ­¤å€¼ï¼Œå¯¹è¯æ¡†ä¼šè‡ªé€‚åº”å†…å®¹å®½åº¦</dd>
+          <dt>ç±»å‹</dt>
           <dd>Number, String</dd>
-          <dt>Ê¾Àı</dt>
+          <dt>ç¤ºä¾‹</dt>
           <dd>
             <pre id="options-width-demo" class="sh_javascript">art.dialog({
     width: 460
 });</pre>
-            <a class="runCode" href="#options-width-demo">ÔËĞĞ</a> </dd>
+            <a class="runCode" href="#options-width-demo">è¿è¡Œ</a> </dd>
           <dd>
             <pre id="options-width-demo-string" class="sh_javascript">art.dialog({
     width: '20em'
 });</pre>
-            <a class="runCode" href="#options-width-demo-string">ÔËĞĞ</a> </dd>
+            <a class="runCode" href="#options-width-demo-string">è¿è¡Œ</a> </dd>
         </dl>
       </li>
       <li>
         <h3 id="options-height">height</h3>
         <dl>
-          <dt>¸ÅÊö</dt>
-          <dd>(Ä¬ÈÏÖµ: "auto") ÉèÖÃ¶Ô»°¿ò <strong>ÄÚÈİ</strong> ¸ß¶È¡£<br />
+          <dt>æ¦‚è¿°</dt>
+          <dd>(é»˜è®¤å€¼: "auto") è®¾ç½®å¯¹è¯æ¡† <strong>å†…å®¹</strong> é«˜åº¦ã€‚<br />
             <br />
-            Ò»°ãÇé¿öÏÂÎŞĞèÉèÖÃ´ËÖµ£¬¶Ô»°¿ò»á×ÔÊÊÓ¦ÄÚÈİ¿í¶È</dd>
-          <dt>ÀàĞÍ</dt>
+            ä¸€èˆ¬æƒ…å†µä¸‹æ— éœ€è®¾ç½®æ­¤å€¼ï¼Œå¯¹è¯æ¡†ä¼šè‡ªé€‚åº”å†…å®¹å®½åº¦</dd>
+          <dt>ç±»å‹</dt>
           <dd>Number, String</dd>
-          <dt>Ê¾Àı</dt>
+          <dt>ç¤ºä¾‹</dt>
           <dd>
             <pre id="options-height-demo" class="sh_javascript">art.dialog({
     height: 460
 });</pre>
-            <a class="runCode" href="#options-height-demo">ÔËĞĞ</a> </dd>
+            <a class="runCode" href="#options-height-demo">è¿è¡Œ</a> </dd>
           <dd>
             <pre id="options-height-demo-string" class="sh_javascript">art.dialog({
     height: '20em'
 });</pre>
-            <a class="runCode" href="#options-height-demo-string">ÔËĞĞ</a> </dd>
+            <a class="runCode" href="#options-height-demo-string">è¿è¡Œ</a> </dd>
         </dl>
       </li>
       <li>
         <h3 id="options-fixed">fixed</h3>
         <dl>
-          <dt>¸ÅÊö</dt>
-          <dd>(Ä¬ÈÏÖµ: false) ¿ªÆô¹Ì¶¨¶¨Î»¡£<br />
+          <dt>æ¦‚è¿°</dt>
+          <dd>(é»˜è®¤å€¼: false) å¼€å¯å›ºå®šå®šä½ã€‚<br />
             <br />
-            ¹Ì¶¨¶¨Î»ÊÇ css2.1 position µÄÒ»¸öÊôĞÔ£¬ËüÄÜ¹Ì¶¨ÔÚä¯ÀÀÆ÷Ä³¸öµØ·½£¬Ò²²»ÊÜ¹ö¶¯ÌõÍÏ¶¯Ó°Ïì¡£IE6 Óë ²¿·ÖÒÆ¶¯ä¯ÀÀÆ÷¶ÔÆäÖ§³Ö²»ºÃ£¬ÄÚ²¿»á×ª³É¾ø¶Ô¶¨Î»</dd>
-          <dt>ÀàĞÍ</dt>
+            å›ºå®šå®šä½æ˜¯ css2.1 position çš„ä¸€ä¸ªå±æ€§ï¼Œå®ƒèƒ½å›ºå®šåœ¨æµè§ˆå™¨æŸä¸ªåœ°æ–¹ï¼Œä¹Ÿä¸å—æ»šåŠ¨æ¡æ‹–åŠ¨å½±å“ã€‚IE6 ä¸ éƒ¨åˆ†ç§»åŠ¨æµè§ˆå™¨å¯¹å…¶æ”¯æŒä¸å¥½ï¼Œå†…éƒ¨ä¼šè½¬æˆç»å¯¹å®šä½</dd>
+          <dt>ç±»å‹</dt>
           <dd>Boolean</dd>
-          <dt>Ê¾Àı</dt>
+          <dt>ç¤ºä¾‹</dt>
           <dd>
             <pre id="options-fixed-demo" class="sh_javascript">art.dialog({
     fixed: true,
-    content: 'ÇëÍÏ¶¯¹ö¶¯Ìõ²é¿´'
+    content: 'è¯·æ‹–åŠ¨æ»šåŠ¨æ¡æŸ¥çœ‹'
 });</pre>
-            <a class="runCode" href="#options-fixed-demo">ÔËĞĞ</a></dd>
+            <a class="runCode" href="#options-fixed-demo">è¿è¡Œ</a></dd>
         </dl>
       </li>
       <li>
         <h3 id="options-follow">follow</h3>
         <dl>
-          <dt>¸ÅÊö</dt>
-          <dd>ÈÃ¶Ô»°¿òÒÀ¸½ÔÚÖ¸¶¨ÔªËØ¸½½ü</dd>
-          <dt>ÀàĞÍ</dt>
+          <dt>æ¦‚è¿°</dt>
+          <dd>è®©å¯¹è¯æ¡†ä¾é™„åœ¨æŒ‡å®šå…ƒç´ é™„è¿‘</dd>
+          <dt>ç±»å‹</dt>
           <dd>HTMLElement</dd>
-          <dt>Ê¾Àı</dt>
+          <dt>ç¤ºä¾‹</dt>
           <dd>
             <pre id="options-follow-demo" class="sh_javascript">art.dialog({
     follow: document.getElementById('options-follow-demo-runCode'),
-    content: 'ÈÃ¶Ô»°¿ò¸ú×ÅÄ³¸öÔªËØ£¬Ò»¸öÔªËØÍ¬Ê±Ö»ÄÜ³öÏÖÒ»¸ö¶Ô»°¿ò'
+    content: 'è®©å¯¹è¯æ¡†è·Ÿç€æŸä¸ªå…ƒç´ ï¼Œä¸€ä¸ªå…ƒç´ åŒæ—¶åªèƒ½å‡ºç°ä¸€ä¸ªå¯¹è¯æ¡†'
 });</pre>
-            <a id="options-follow-demo-runCode" class="runCode" href="#options-follow-demo">ÔËĞĞ</a></dd>
+            <a id="options-follow-demo-runCode" class="runCode" href="#options-follow-demo">è¿è¡Œ</a></dd>
         </dl>
       </li>
       <li>
         <h3 id="options-lock">lock</h3>
         <dl>
-          <dt>¸ÅÊö</dt>
-          <dd>(Ä¬ÈÏÖµ: false) ¿ªÆôËøÆÁÕÚÕÖ¡£<br />
+          <dt>æ¦‚è¿°</dt>
+          <dd>(é»˜è®¤å€¼: false) å¼€å¯é”å±é®ç½©ã€‚<br />
             <br />
-            ÖĞ¶ÏÓÃ»§¶Ô»°¿òÖ®ÍâµÄ½»»¥£¬ÓÃÓÚÏÔÊ¾·Ç³£ÖØÒªµÄ²Ù×÷/ÏûÏ¢¡£½¨ÒéÖ»ÔÚÊÊºÏµÄÊ±ºòÊ¹ÓÃËü¡£ÕÚÕÖµÄÑÕÉ«ÓëÍ¸Ã÷¶È¿ÉÔÚÆ¤·ôCSSÖĞÉèÖÃ¡£</dd>
-          <dt>ÀàĞÍ</dt>
+            ä¸­æ–­ç”¨æˆ·å¯¹è¯æ¡†ä¹‹å¤–çš„äº¤äº’ï¼Œç”¨äºæ˜¾ç¤ºéå¸¸é‡è¦çš„æ“ä½œ/æ¶ˆæ¯ã€‚å»ºè®®åªåœ¨é€‚åˆçš„æ—¶å€™ä½¿ç”¨å®ƒã€‚é®ç½©çš„é¢œè‰²ä¸é€æ˜åº¦å¯åœ¨çš®è‚¤CSSä¸­è®¾ç½®ã€‚</dd>
+          <dt>ç±»å‹</dt>
           <dd>Boolean</dd>
-          <dt>Ê¾Àı</dt>
+          <dt>ç¤ºä¾‹</dt>
           <dd>
             <pre id="options-lock-demo" class="sh_javascript">art.dialog({
     lock: true
 });</pre>
-            <a class="runCode" href="#options-lock-demo">ÔËĞĞ</a></dd>
+            <a class="runCode" href="#options-lock-demo">è¿è¡Œ</a></dd>
         </dl>
       </li>
       <li>
         <h3 id="options-padding">padding</h3>
         <dl>
-          <dt>¸ÅÊö</dt>
-          <dd>(Ä¬ÈÏÖµ: "20px 25px") ÉèÖÃÏûÏ¢ÄÚÈİÓëÏûÏ¢ÈİÆ÷µÄÌî³ä±ß¾à£¬¼´ style padding ÊôĞÔ</dd>
-          <dt>ÀàĞÍ</dt>
+          <dt>æ¦‚è¿°</dt>
+          <dd>(é»˜è®¤å€¼: "20px 25px") è®¾ç½®æ¶ˆæ¯å†…å®¹ä¸æ¶ˆæ¯å®¹å™¨çš„å¡«å……è¾¹è·ï¼Œå³ style padding å±æ€§</dd>
+          <dt>ç±»å‹</dt>
           <dd>String</dd>
-          <dt>Ê¾Àı</dt>
+          <dt>ç¤ºä¾‹</dt>
           <dd>
             <pre id="options-padding-demo" class="sh_javascript">art.dialog({
     content: 'hello world',
     padding: 0
 })</pre>
-            <a class="runCode" href="#options-padding-demo">ÔËĞĞ</a></dd>
+            <a class="runCode" href="#options-padding-demo">è¿è¡Œ</a></dd>
         </dl>
       </li>
       <li>
         <h3 id="options-id">id</h3>
         <dl>
-          <dt>¸ÅÊö</dt>
-          <dd>Éè¶¨¶Ô»°¿òÎ¨Ò»±êÊ¶¡£<br />
+          <dt>æ¦‚è¿°</dt>
+          <dd>è®¾å®šå¯¹è¯æ¡†å”¯ä¸€æ ‡è¯†ã€‚<br />
             <br />
-            ×÷ÓÃ£º
+            ä½œç”¨ï¼š
             <ol>
-              <li>¿É·ÀÖ¹ÖØ¸´ ID ¶Ô»°¿òµ¯³ö</li>
-              <li>¿ÉºóĞøÊ¹ÓÃ <a href="#api-get">art.dialog.<strong>get</strong>(id)</a> »ñÈ¡Ä³¸ö¶Ô»°¿òµÄ½Ó¿Ú</li>
+              <li>å¯é˜²æ­¢é‡å¤ ID å¯¹è¯æ¡†å¼¹å‡º</li>
+              <li>å¯åç»­ä½¿ç”¨ <a href="#api-get">art.dialog.<strong>get</strong>(id)</a> è·å–æŸä¸ªå¯¹è¯æ¡†çš„æ¥å£</li>
             </ol>
           </dd>
-          <dt>ÀàĞÍ</dt>
+          <dt>ç±»å‹</dt>
           <dd>String</dd>
-          <dt>Ê¾Àı</dt>
+          <dt>ç¤ºä¾‹</dt>
           <dd>
             <pre id="options-id-demo" class="sh_javascript">art.dialog({
     id: 'id-demo',
-    content: 'ÔÙ´Îµã»÷ÔËĞĞ¿´¿´'
+    content: 'å†æ¬¡ç‚¹å‡»è¿è¡Œçœ‹çœ‹'
 });
 art.dialog.get('id-demo').title('8888888888');</pre>
-            <a class="runCode" href="#options-id-demo">ÔËĞĞ</a></dd>
+            <a class="runCode" href="#options-id-demo">è¿è¡Œ</a></dd>
         </dl>
       </li>
       <li>
         <h3 id="options-zIndex">zIndex</h3>
         <dl>
-          <dt>¸ÅÊö</dt>
-          <dd>(Ä¬ÈÏÖµ: 1987) ÖØÖÃÈ«¾Ö zIndex ³õÊ¼Öµ£¬ÓÃÀ´¸Ä±ä¶Ô»°¿òµş¼Ó¸ß¶È¡£<br />
+          <dt>æ¦‚è¿°</dt>
+          <dd>(é»˜è®¤å€¼: 1987) é‡ç½®å…¨å±€ zIndex åˆå§‹å€¼ï¼Œç”¨æ¥æ”¹å˜å¯¹è¯æ¡†å åŠ é«˜åº¦ã€‚<br />
             <br />
-            ±ÈÈçÓĞÊ±ºòÅäºÏÍâ²¿¸¡¶¯²ãUI×é¼ş£¬µ«ÊÇËüÃÇ¿ÉÄÜÄ¬ÈÏ zIndex Ã»ÓĞ artDialog ¸ß£¬µ¼ÖÂÎŞ·¨¸¡¶¯µ½ artDialog Ö®ÉÏ£¬Õâ¸öÊ±ºòÄã¾Í¿ÉÒÔ¸ø¶Ô»°¿òÖ¸¶¨Ò»¸ö½ÏĞ¡µÄ zIndex Öµ¡£
-            Çë×¢ÒâÕâÊÇÒ»¸ö»áÓ°Ïìµ½È«¾ÖµÄÅäÖÃ£¬ºóĞø³öÏÖµÄ¶Ô»°¿òµş¼Ó¸ß¶È½«ÖØĞÂ°´´ËÀÛ¼Ó¡£</dd>
-          <dt>ÀàĞÍ</dt>
+            æ¯”å¦‚æœ‰æ—¶å€™é…åˆå¤–éƒ¨æµ®åŠ¨å±‚UIç»„ä»¶ï¼Œä½†æ˜¯å®ƒä»¬å¯èƒ½é»˜è®¤ zIndex æ²¡æœ‰ artDialog é«˜ï¼Œå¯¼è‡´æ— æ³•æµ®åŠ¨åˆ° artDialog ä¹‹ä¸Šï¼Œè¿™ä¸ªæ—¶å€™ä½ å°±å¯ä»¥ç»™å¯¹è¯æ¡†æŒ‡å®šä¸€ä¸ªè¾ƒå°çš„ zIndex å€¼ã€‚
+            è¯·æ³¨æ„è¿™æ˜¯ä¸€ä¸ªä¼šå½±å“åˆ°å…¨å±€çš„é…ç½®ï¼Œåç»­å‡ºç°çš„å¯¹è¯æ¡†å åŠ é«˜åº¦å°†é‡æ–°æŒ‰æ­¤ç´¯åŠ ã€‚</dd>
+          <dt>ç±»å‹</dt>
           <dd>Number</dd>
-          <dt>Ê¾Àı</dt>
+          <dt>ç¤ºä¾‹</dt>
           <dd>
             <pre id="options-zIndex-demo" class="sh_javascript">art.dialog({
     zIndex: 87
 });</pre>
-            <a class="runCode" href="#options-zIndex-demo">ÔËĞĞ</a></dd>
+            <a class="runCode" href="#options-zIndex-demo">è¿è¡Œ</a></dd>
         </dl>
       </li>
       <li>
         <h3 id="options-initialize"><span class="change">initialize</span></h3>
         <dl>
-          <dt>¸ÅÊö</dt>
-          <dd>¶Ô»°¿ò³õÊ¼»¯Íê³ÉºóÖ´ĞĞµÄº¯Êı¡£<br />
+          <dt>æ¦‚è¿°</dt>
+          <dd>å¯¹è¯æ¡†åˆå§‹åŒ–å®Œæˆåæ‰§è¡Œçš„å‡½æ•°ã€‚<br />
             <br />
-            »Øµ÷º¯Êı this Ö¸Ïò art.dialog ¶ÔÏó</dd>
-          <dt>ÀàĞÍ</dt>
+            å›è°ƒå‡½æ•° this æŒ‡å‘ art.dialog å¯¹è±¡</dd>
+          <dt>ç±»å‹</dt>
           <dd>Function</dd>
-          <dt>Ê¾Àı</dt>
+          <dt>ç¤ºä¾‹</dt>
           <dd>
             <pre id="options-initialize-demo" class="sh_javascript">art.dialog({
     initialize: function () {
-        this.content('¶Ô»°¿ò³õÊ¼»¯Íê³É');
+        this.content('å¯¹è¯æ¡†åˆå§‹åŒ–å®Œæˆ');
     }
 });</pre>
-            <a class="runCode" href="#options-initialize-demo">ÔËĞĞ</a></dd>
+            <a class="runCode" href="#options-initialize-demo">è¿è¡Œ</a></dd>
         </dl>
       </li>
       <li>
         <h3 id="options-beforeunload"><span class="change">beforeunload</span></h3>
         <dl>
-          <dt>¸ÅÊö</dt>
-          <dd>¶Ô»°¿ò¹Ø±ÕÇ°Ö´ĞĞµÄº¯Êı¡£<br />
+          <dt>æ¦‚è¿°</dt>
+          <dd>å¯¹è¯æ¡†å…³é—­å‰æ‰§è¡Œçš„å‡½æ•°ã€‚<br />
             <br />
-            »Øµ÷º¯Êı this Ö¸Ïò art.dialog ¶ÔÏó£¬Ö´ĞĞÍê±ÏÄ¬ÈÏ¹Ø±Õ¶Ô»°¿ò£¬Èô·µ»Ø false Ôò×èÖ¹¹Ø±Õ</dd>
-          <dt>ÀàĞÍ</dt>
+            å›è°ƒå‡½æ•° this æŒ‡å‘ art.dialog å¯¹è±¡ï¼Œæ‰§è¡Œå®Œæ¯•é»˜è®¤å…³é—­å¯¹è¯æ¡†ï¼Œè‹¥è¿”å› false åˆ™é˜»æ­¢å…³é—­</dd>
+          <dt>ç±»å‹</dt>
           <dd>Function</dd>
-          <dt>Ê¾Àı</dt>
+          <dt>ç¤ºä¾‹</dt>
           <dd>
             <pre id="options-beforeunload-demo" class="sh_javascript">art.dialog({
     beforeunload: function () {
-        return confirm('È·¶¨¹Ø±Õ¶Ô»°¿òÂğ');
+        return confirm('ç¡®å®šå…³é—­å¯¹è¯æ¡†å—');
     }
 });</pre>
-            <a class="runCode" href="#options-beforeunload-demo">ÔËĞĞ</a></dd>
+            <a class="runCode" href="#options-beforeunload-demo">è¿è¡Œ</a></dd>
         </dl>
       </li>
       <li>
         <h3 id="options-visible"><span class="change">visible</span></h3>
         <dl>
-          <dt>¸ÅÊö</dt>
-          <dd>(Ä¬ÈÏÖµ: true) ÊÇ·ñÏÔÊ¾¶Ô»°¿ò</dd>
-          <dt>ÀàĞÍ</dt>
+          <dt>æ¦‚è¿°</dt>
+          <dd>(é»˜è®¤å€¼: true) æ˜¯å¦æ˜¾ç¤ºå¯¹è¯æ¡†</dd>
+          <dt>ç±»å‹</dt>
           <dd>Boolean</dd>
-          <dt>Ê¾Àı</dt>
+          <dt>ç¤ºä¾‹</dt>
           <dd>
             <pre id="options-visible-demo" class="sh_javascript">var dialog = art.dialog({
     visible: false,
     id: 'visible-demo'
 });
 
-confirm('ÏÔÊ¾¶Ô»°¿òÂğ') ? dialog.visible() : dialog.hidden();</pre>
-            <a class="runCode" href="#options-visible-demo">ÔËĞĞ</a></dd>
+confirm('æ˜¾ç¤ºå¯¹è¯æ¡†å—') ? dialog.visible() : dialog.hidden();</pre>
+            <a class="runCode" href="#options-visible-demo">è¿è¡Œ</a></dd>
         </dl>
       </li>
       <li>
         <h3 id="options-time"><span class="change">time</span></h3>
         <dl>
-          <dt>¸ÅÊö</dt>
-          <dd>ÉèÖÃ¶Ô»°¿òÏÔÊ¾Ê±¼ä£¬³¬¹ıÊ±¼ä×Ô¶¯¹Ø±Õ (µ¥Î»£º<span class="change">ºÁÃë</span>)</dd>
-          <dt>ÀàĞÍ</dt>
+          <dt>æ¦‚è¿°</dt>
+          <dd>è®¾ç½®å¯¹è¯æ¡†æ˜¾ç¤ºæ—¶é—´ï¼Œè¶…è¿‡æ—¶é—´è‡ªåŠ¨å…³é—­ (å•ä½ï¼š<span class="change">æ¯«ç§’</span>)</dd>
+          <dt>ç±»å‹</dt>
           <dd>Number</dd>
-          <dt>Ê¾Àı</dt>
+          <dt>ç¤ºä¾‹</dt>
           <dd>
             <pre id="options-time-demo" class="sh_javascript">art.dialog({
     time: 2000
 });</pre>
-            <a class="runCode" href="#options-time-demo">ÔËĞĞ</a></dd>
+            <a class="runCode" href="#options-time-demo">è¿è¡Œ</a></dd>
         </dl>
       </li>
       <li>
         <h3 id="options-esc">esc</h3>
         <dl>
-          <dt>¸ÅÊö</dt>
-          <dd>(Ä¬ÈÏÖµ: false) ÊÇ·ñÔÊĞíÓÃ»§°´ Esc ¼ü¹Ø±Õ¶Ô»°¿ò</dd>
-          <dt>ÀàĞÍ</dt>
+          <dt>æ¦‚è¿°</dt>
+          <dd>(é»˜è®¤å€¼: false) æ˜¯å¦å…è®¸ç”¨æˆ·æŒ‰ Esc é”®å…³é—­å¯¹è¯æ¡†</dd>
+          <dt>ç±»å‹</dt>
           <dd>Boolean</dd>
-          <dt>Ê¾Àı</dt>
+          <dt>ç¤ºä¾‹</dt>
           <dd>
             <pre id="options-esc-demo" class="sh_javascript">art.dialog({
     esc: false,
-    content: '°´ Esc ²»ÄÜ¹Ø±ÕÎÒ'
+    content: 'æŒ‰ Esc ä¸èƒ½å…³é—­æˆ‘'
 });</pre>
-            <a class="runCode" href="#options-esc-demo">ÔËĞĞ</a></dd>
+            <a class="runCode" href="#options-esc-demo">è¿è¡Œ</a></dd>
         </dl>
       </li>
       <li>
         <h3 id="options-focus"><span class="change">focus</span></h3>
         <dl>
-          <dt>¸ÅÊö</dt>
-          <dd>(Ä¬ÈÏÖµ: true) ÊÇ·ñÖ§³Ö¶Ô»°¿ò°´Å¥×Ô¶¯¾Û½¹</dd>
-          <dt>ÀàĞÍ</dt>
+          <dt>æ¦‚è¿°</dt>
+          <dd>(é»˜è®¤å€¼: true) æ˜¯å¦æ”¯æŒå¯¹è¯æ¡†æŒ‰é’®è‡ªåŠ¨èšç„¦</dd>
+          <dt>ç±»å‹</dt>
           <dd>Boolean</dd>
-          <dt>Ê¾Àı</dt>
+          <dt>ç¤ºä¾‹</dt>
           <dd>
             <pre id="options-focus-demo" class="sh_javascript">art.dialog({
     focus: false,
     ok: function () {}
 });</pre>
-            <a class="runCode" href="#options-focus-demo">ÔËĞĞ</a></dd>
+            <a class="runCode" href="#options-focus-demo">è¿è¡Œ</a></dd>
         </dl>
       </li>
     </ul>
   </div>
   <div id="api" class="card">
-    <h2>½Ó¿Ú</h2>
+    <h2>æ¥å£</h2>
     <ul>
       <li>
         <h3 id="api-get"><span class="change">art.dialog.get(id)</span></h3>
         <dl>
-          <dt>¸ÅÊö</dt>
-          <dd>¸ù¾İ id »ñÈ¡ art.dialog ¶ÔÏó¡£<strong>×¢Òâ</strong>£ºÕâÊÇÒ»¸ö¾²Ì¬·½·¨</dd>
-          <dt>²ÎÊı</dt>
+          <dt>æ¦‚è¿°</dt>
+          <dd>æ ¹æ® id è·å– art.dialog å¯¹è±¡ã€‚<strong>æ³¨æ„</strong>ï¼šè¿™æ˜¯ä¸€ä¸ªé™æ€æ–¹æ³•</dd>
+          <dt>å‚æ•°</dt>
           <dd>
             <dl>
               <dt title="String">id</dt>
-              <dd>¶Ô»°¿ò id</dd>
+              <dd>å¯¹è¯æ¡† id</dd>
             </dl>
           </dd>
-          <dt>·µ»ØÖµ</dt>
-          <dd>Èç¹û´æÔÚ id ²ÎÊıÔò·µ»Ø art.dialog ¶ÔÏó£¬·ñÔò·µ»ØÒ³ÃæËùÓĞ art.dialog ¶ÔÏóÊı×é</dd>
-          <dt>Ê¾Àı</dt>
+          <dt>è¿”å›å€¼</dt>
+          <dd>å¦‚æœå­˜åœ¨ id å‚æ•°åˆ™è¿”å› art.dialog å¯¹è±¡ï¼Œå¦åˆ™è¿”å›é¡µé¢æ‰€æœ‰ art.dialog å¯¹è±¡æ•°ç»„</dd>
+          <dt>ç¤ºä¾‹</dt>
           <dd>
             <pre id="api-get-demo" class="sh_javascript">art.dialog({
     id: 'demo-get'
@@ -727,15 +727,15 @@ confirm('ÏÔÊ¾¶Ô»°¿òÂğ') ? dialog.visible() : dialog.hidden();</pre>
 var dialog = art.dialog.get('demo-get');
 dialog.title('hello').content('I Love You!');
 </pre>
-            <a class="runCode" href="#api-get-demo">ÔËĞĞ</a> </dd>
+            <a class="runCode" href="#api-get-demo">è¿è¡Œ</a> </dd>
         </dl>
       </li>
       <li>
         <h3 id="api-closed"><span class="change">closed</span></h3>
         <dl>
-          <dt>¸ÅÊö</dt>
-          <dd>¶Ô»°¿òÊÇ·ñÒÑ¾­¹Ø±Õ¡£<strong>×¢Òâ</strong>£ºÕâÊÇÒ»¸öÊôĞÔ£¬¶Ô»°¿òÈô¹Ø±ÕÆäÖµÎª true</dd>
-          <dt>Ê¾Àı</dt>
+          <dt>æ¦‚è¿°</dt>
+          <dd>å¯¹è¯æ¡†æ˜¯å¦å·²ç»å…³é—­ã€‚<strong>æ³¨æ„</strong>ï¼šè¿™æ˜¯ä¸€ä¸ªå±æ€§ï¼Œå¯¹è¯æ¡†è‹¥å…³é—­å…¶å€¼ä¸º true</dd>
+          <dt>ç¤ºä¾‹</dt>
           <dd>
             <pre id="api-closed-demo" class="sh_javascript">var dialog = art.dialog();
 
@@ -743,142 +743,142 @@ dialog.close();
 
 alert(dialog.closed);
 </pre>
-            <a class="runCode" href="#api-closed-demo">ÔËĞĞ</a> </dd>
+            <a class="runCode" href="#api-closed-demo">è¿è¡Œ</a> </dd>
         </dl>
       </li>
       <li>
         <h3 id="api-close">close()</h3>
         <dl>
-          <dt>¸ÅÊö</dt>
-          <dd>¹Ø±Õ¶Ô»°¿ò</dd>
-          <dt>Ê¾Àı</dt>
+          <dt>æ¦‚è¿°</dt>
+          <dd>å…³é—­å¯¹è¯æ¡†</dd>
+          <dt>ç¤ºä¾‹</dt>
           <dd>
             <pre id="api-close-demo" class="sh_javascript">var dialog = art.dialog({
     content: 'hello world!'
 });
 
-if (confirm('¹Ø±Õ¶Ô»°¿òÂğ')) {
+if (confirm('å…³é—­å¯¹è¯æ¡†å—')) {
     dialog.close();
 };
 </pre>
-            <a class="runCode" href="#api-close-demo">ÔËĞĞ</a> </dd>
+            <a class="runCode" href="#api-close-demo">è¿è¡Œ</a> </dd>
         </dl>
       </li>
       <li>
         <h3 id="api-visible"><span class="change">visible()</span></h3>
         <dl>
-          <dt>¸ÅÊö</dt>
-          <dd>°ÑÒş²ØµÄ¶Ô»°¿òÏÔÊ¾</dd>
-          <dt>Ê¾Àı</dt>
+          <dt>æ¦‚è¿°</dt>
+          <dd>æŠŠéšè—çš„å¯¹è¯æ¡†æ˜¾ç¤º</dd>
+          <dt>ç¤ºä¾‹</dt>
           <dd>
             <pre id="api-visible-demo" class="sh_javascript">var dialog = art.dialog({
     visible: false
 });
 
 dialog.visible();</pre>
-            <a class="runCode" href="#api-visible-demo">ÔËĞĞ</a> </dd>
+            <a class="runCode" href="#api-visible-demo">è¿è¡Œ</a> </dd>
         </dl>
       </li>
       <li>
         <h3 id="api-hidden"><span class="change">hidden()</span></h3>
         <dl>
-          <dt>¸ÅÊö</dt>
-          <dd>Òş²Ø¶Ô»°¿ò</dd>
-          <dt>Ê¾Àı</dt>
+          <dt>æ¦‚è¿°</dt>
+          <dd>éšè—å¯¹è¯æ¡†</dd>
+          <dt>ç¤ºä¾‹</dt>
           <dd>
             <pre id="api-hidden-demo" class="sh_javascript">var dialog = art.dialog();
 
 dialog.hidden();</pre>
-            <a class="runCode" href="#api-hidden-demo">ÔËĞĞ</a> </dd>
+            <a class="runCode" href="#api-hidden-demo">è¿è¡Œ</a> </dd>
         </dl>
       </li>
       <li>
         <h3 id="api-title">title(value)</h3>
         <dl>
-          <dt>¸ÅÊö</dt>
-          <dd>ÉèÖÃ¶Ô»°¿ò±êÌâ</dd>
-          <dt>²ÎÊı</dt>
+          <dt>æ¦‚è¿°</dt>
+          <dd>è®¾ç½®å¯¹è¯æ¡†æ ‡é¢˜</dd>
+          <dt>å‚æ•°</dt>
           <dd>
             <dl>
               <dt title="String">value</dt>
-              <dd>±êÌâÄÚÈİ</dd>
+              <dd>æ ‡é¢˜å†…å®¹</dd>
             </dl>
           </dd>
-          <dt>Ê¾Àı</dt>
+          <dt>ç¤ºä¾‹</dt>
           <dd>
             <pre id="api-title-demo" class="sh_javascript">var dialog = art.dialog({
-    title: 'ÇëµÈ´ı..'
+    title: 'è¯·ç­‰å¾…..'
 });
 
-dialog.title('»¶Ó­Ê¹ÓÃ');</pre>
-            <a class="runCode" href="#api-title-demo">ÔËĞĞ</a> </dd>
+dialog.title('æ¬¢è¿ä½¿ç”¨');</pre>
+            <a class="runCode" href="#api-title-demo">è¿è¡Œ</a> </dd>
         </dl>
       </li>
       <li>
         <h3 id="api-content">content(value)</h3>
         <dl>
-          <dt>¸ÅÊö</dt>
-          <dd>ÉèÖÃÏûÏ¢ÄÚÈİ</dd>
-          <dt>²ÎÊı</dt>
+          <dt>æ¦‚è¿°</dt>
+          <dd>è®¾ç½®æ¶ˆæ¯å†…å®¹</dd>
+          <dt>å‚æ•°</dt>
           <dd>
             <dl>
               <dt title="String, HTMLElement">value</dt>
-              <dd>ÏûÏ¢ÄÚÈİ</dd>
+              <dd>æ¶ˆæ¯å†…å®¹</dd>
             </dl>
           </dd>
-          <dt>Ê¾Àı</dt>
+          <dt>ç¤ºä¾‹</dt>
           <dd>
             <pre id="api-content-demo" class="sh_javascript">var dialog = art.dialog();
 
-dialog.content('¼ÓÔØÍê³É£¡');</pre>
-            <a class="runCode" href="#api-content-demo">ÔËĞĞ</a> </dd>
+dialog.content('åŠ è½½å®Œæˆï¼');</pre>
+            <a class="runCode" href="#api-content-demo">è¿è¡Œ</a> </dd>
         </dl>
       </li>
       <li>
         <h3 id="api-button">button(button, [button], ..)</h3>
         <dl>
-          <dt>¸ÅÊö</dt>
-          <dd>Ìí¼Ó»òÕßĞŞ¸ÄÒ»¸ö»òÕß¶à¸ö°´Å¥</dd>
-          <dt>²ÎÊı</dt>
+          <dt>æ¦‚è¿°</dt>
+          <dd>æ·»åŠ æˆ–è€…ä¿®æ”¹ä¸€ä¸ªæˆ–è€…å¤šä¸ªæŒ‰é’®</dd>
+          <dt>å‚æ•°</dt>
           <dd>
             <dl>
               <dt title="Options">button</dt>
-              <dd>°´Å¥ÅäÖÃ</dd>
+              <dd>æŒ‰é’®é…ç½®</dd>
             </dl>
           </dd>
-          <dt>Ñ¡Ïî</dt>
+          <dt>é€‰é¡¹</dt>
           <dd>
             <dl>
               <dt title="String"><span class="change">value</span></dt>
-              <dd>°´Å¥ÏÔÊ¾ÎÄ±¾</dd>
+              <dd>æŒ‰é’®æ˜¾ç¤ºæ–‡æœ¬</dd>
               <dt title="Function">callback</dt>
-              <dd>(¿ÉÑ¡) °´Å¥µã»÷ºóµÄ»Øµ÷º¯Êı¡£»Øµ÷º¯Êı this Ö¸Ïò art.dialog ¶ÔÏó£¬Ö´ĞĞÍê±ÏÄ¬ÈÏ¹Ø±Õ¶Ô»°¿ò£¬Èô·µ»Ø false Ôò×èÖ¹¹Ø±Õ</dd>
+              <dd>(å¯é€‰) æŒ‰é’®ç‚¹å‡»åçš„å›è°ƒå‡½æ•°ã€‚å›è°ƒå‡½æ•° this æŒ‡å‘ art.dialog å¯¹è±¡ï¼Œæ‰§è¡Œå®Œæ¯•é»˜è®¤å…³é—­å¯¹è¯æ¡†ï¼Œè‹¥è¿”å› false åˆ™é˜»æ­¢å…³é—­</dd>
               <dt title="Boolean">focus</dt>
-              <dd>(Ä¬ÈÏÖµ: true) ÊÇ·ñ¾Û½¹</dd>
+              <dd>(é»˜è®¤å€¼: true) æ˜¯å¦èšç„¦</dd>
               <dt title="String"><span class="change">width</span></dt>
-              <dd>(¿ÉÑ¡) ÉèÖÃ°´Å¥ CSS width Öµ</dd>
+              <dd>(å¯é€‰) è®¾ç½®æŒ‰é’® CSS width å€¼</dd>
               <dt title="Boolean">disabled</dt>
-              <dd>(Ä¬ÈÏÖµ: false) ÊÇ·ñ½ûÓÃ</dd>
+              <dd>(é»˜è®¤å€¼: false) æ˜¯å¦ç¦ç”¨</dd>
               <dt title="String"><span class="change">id</span></dt>
-              <dd>(Ä¬ÈÏÖµ: Óë value Ò»ÖÂ) Î¨Ò»±êÊ¶</dd>
+              <dd>(é»˜è®¤å€¼: ä¸ value ä¸€è‡´) å”¯ä¸€æ ‡è¯†</dd>
             </dl>
           </dd>
-          <dt>Ê¾Àı</dt>
+          <dt>ç¤ºä¾‹</dt>
           <dd>
-            <p>ĞŞ¸Ä°´Å¥ÓëĞÂÔö°´Å¥£º</p>
+            <p>ä¿®æ”¹æŒ‰é’®ä¸æ–°å¢æŒ‰é’®ï¼š</p>
             <pre id="api-button-demo" class="sh_javascript">var dialog = art.dialog({
     button: [{
-        value: 'Ôö¼ÓÒ»¸ö°´Å¥',
+        value: 'å¢åŠ ä¸€ä¸ªæŒ‰é’®',
         focus: true,
         callback: function () {
             this.button({
-                value: '¹Ø±ÕÎÒ'
+                value: 'å…³é—­æˆ‘'
             });
             return false;
         }
     }, {
         id: 'button',
-        value: 'Ìá½» (5)',
+        value: 'æäº¤ (5)',
         width: '8em',
         callback: function () {
             alert(0);
@@ -894,7 +894,7 @@ var timer = setInterval(function () {
     
     dialog.button({
         id: 'button',
-        value: 'Ìá½» (' + i + ')',
+        value: 'æäº¤ (' + i + ')',
         disabled: true
     });
     
@@ -902,145 +902,145 @@ var timer = setInterval(function () {
         clearInterval(timer);
         dialog.button({
             id: 'button',
-            value: 'Ìá½»',
+            value: 'æäº¤',
             disabled: false
         });
     };
 }, 1000);</pre>
-            <a class="runCode" href="#api-button-demo">ÔËĞĞ</a> </dd>
+            <a class="runCode" href="#api-button-demo">è¿è¡Œ</a> </dd>
         </dl>
       </li>
       <li>
         <h3 id="api-follow">follow(element)</h3>
         <dl>
-          <dt>¸ÅÊö</dt>
-          <dd>ÈÃ¶Ô»°¿òÒÀ¸½ÔÚÖ¸¶¨ÔªËØ¸½½ü</dd>
-          <dt>²ÎÊı</dt>
+          <dt>æ¦‚è¿°</dt>
+          <dd>è®©å¯¹è¯æ¡†ä¾é™„åœ¨æŒ‡å®šå…ƒç´ é™„è¿‘</dd>
+          <dt>å‚æ•°</dt>
           <dd>
             <dl>
               <dt title="HTMLElement">element</dt>
-              <dd>ÔªËØ</dd>
+              <dd>å…ƒç´ </dd>
             </dl>
           </dd>
-          <dt>Ê¾Àı</dt>
+          <dt>ç¤ºä¾‹</dt>
           <dd>
             <pre id="api-follow-demo" class="sh_javascript">var dialog = art.dialog();
 
 dialog.follow(document.getElementById('api-follow-demo-runCode'));</pre>
-            <a id="api-follow-demo-runCode" class="runCode" href="#api-follow-demo">ÔËĞĞ</a> </dd>
+            <a id="api-follow-demo-runCode" class="runCode" href="#api-follow-demo">è¿è¡Œ</a> </dd>
         </dl>
       </li>
       <li>
         <h3 id="api-size">size(width, height)</h3>
         <dl>
-          <dt>¸ÅÊö</dt>
-          <dd>Ö¸¶¨¶Ô»°¿òÄÚÈİ³ß´ç</dd>
-          <dt>²ÎÊı</dt>
+          <dt>æ¦‚è¿°</dt>
+          <dd>æŒ‡å®šå¯¹è¯æ¡†å†…å®¹å°ºå¯¸</dd>
+          <dt>å‚æ•°</dt>
           <dd>
             <dl>
               <dt title="Number, String">width</dt>
-              <dd>ÄÚÈİ¿í¶È</dd>
+              <dd>å†…å®¹å®½åº¦</dd>
               <dt title="Number, String">height</dt>
-              <dd>ÄÚÈİ¸ß¶È</dd>
+              <dd>å†…å®¹é«˜åº¦</dd>
             </dl>
           </dd>
-          <dt>Ê¾Àı</dt>
+          <dt>ç¤ºä¾‹</dt>
           <dd>
             <pre id="api-size-demo" class="sh_javascript">var dialog = art.dialog();
 
 dialog.size('20em', 60);</pre>
-            <a class="runCode" href="#api-size-demo">ÔËĞĞ</a> </dd>
+            <a class="runCode" href="#api-size-demo">è¿è¡Œ</a> </dd>
         </dl>
       </li>
       <li>
         <h3 id="api-lock">lock()</h3>
         <dl>
-          <dt>¸ÅÊö</dt>
-          <dd>¿ªÆôËøÆÁÕÚÕÖ</dd>
-          <dt>Ê¾Àı</dt>
+          <dt>æ¦‚è¿°</dt>
+          <dd>å¼€å¯é”å±é®ç½©</dd>
+          <dt>ç¤ºä¾‹</dt>
           <dd>
             <pre id="api-lock-demo" class="sh_javascript">var dialog = art.dialog();
 
 dialog.lock();</pre>
-            <a class="runCode" href="#api-lock-demo">ÔËĞĞ</a> </dd>
+            <a class="runCode" href="#api-lock-demo">è¿è¡Œ</a> </dd>
         </dl>
       </li>
       <li>
         <h3 id="api-unlock">unlock()</h3>
         <dl>
-          <dt>¸ÅÊö</dt>
-          <dd>¹Ø±ÕËøÆÁÕÚÕÖ</dd>
-          <dt>Ê¾Àı</dt>
+          <dt>æ¦‚è¿°</dt>
+          <dd>å…³é—­é”å±é®ç½©</dd>
+          <dt>ç¤ºä¾‹</dt>
           <dd>
             <pre id="api-unlock-demo" class="sh_javascript">var dialog = art.dialog({
     lock: true
 });
 
 dialog.unlock();</pre>
-            <a class="runCode" href="#api-unlock-demo">ÔËĞĞ</a> </dd>
+            <a class="runCode" href="#api-unlock-demo">è¿è¡Œ</a> </dd>
         </dl>
       </li>
       <li>
         <h3 id="api-time"><span class="change">time(value)</span></h3>
         <dl>
-          <dt>¸ÅÊö</dt>
-          <dd>ÉèÖÃ¶Ô»°¿òÏÔÊ¾Ê±¼ä£¬³¬¹ıÊ±¼ä×Ô¶¯¹Ø±Õ (µ¥Î»£º<span class="change">ºÁÃë</span>)</dd>
-          <dt>²ÎÊı</dt>
+          <dt>æ¦‚è¿°</dt>
+          <dd>è®¾ç½®å¯¹è¯æ¡†æ˜¾ç¤ºæ—¶é—´ï¼Œè¶…è¿‡æ—¶é—´è‡ªåŠ¨å…³é—­ (å•ä½ï¼š<span class="change">æ¯«ç§’</span>)</dd>
+          <dt>å‚æ•°</dt>
           <dd>
             <dl>
               <dt title="Number"><span class="change">value</span></dt>
-              <dd>ºÁÃë</dd>
+              <dd>æ¯«ç§’</dd>
             </dl>
           </dd>
-          <dt>Ê¾Àı</dt>
+          <dt>ç¤ºä¾‹</dt>
           <dd>
             <pre id="api-time-demo" class="sh_javascript">var dialog = art.dialog();
 
 dialog.time(2000);</pre>
-            <a class="runCode" href="#api-time-demo">ÔËĞĞ</a> </dd>
+            <a class="runCode" href="#api-time-demo">è¿è¡Œ</a> </dd>
         </dl>
       </li>
     </ul>
   </div>
   <div id="plugins" class="card">
-    <h2>²å¼ş</h2>
-    <p>artDialog ¿ÉÒÔÍ¨¹ı²å¼şÖ§³ÖÍÏ¶¯¡¢¶¶¶¯Ğ§¹û£¬ alert¡¢confirm¡¢prompt ·½·¨¡£Ö»ĞèÔÚ artDialog Ö®ºóÒıÓÃÈçÏÂÎÄ¼ş¼´¿É£º</p>
+    <h2>æ’ä»¶</h2>
+    <p>artDialog å¯ä»¥é€šè¿‡æ’ä»¶æ”¯æŒæ‹–åŠ¨ã€æŠ–åŠ¨æ•ˆæœï¼Œ alertã€confirmã€prompt æ–¹æ³•ã€‚åªéœ€åœ¨ artDialog ä¹‹åå¼•ç”¨å¦‚ä¸‹æ–‡ä»¶å³å¯ï¼š</p>
     <pre class="sh_javascript">
 &lt;script src="./artDialog.plugins.min.js"&gt;&lt;/script&gt;</pre>
     <p>
-      <button id="getPlugins" class="button">¼ÓÔØ²å¼ş</button>
+      <button id="getPlugins" class="button">åŠ è½½æ’ä»¶</button>
     </p>
     <div id="plugins-demos">
-      <h3>ÑİÊ¾²å¼ş</h3>
+      <h3>æ¼”ç¤ºæ’ä»¶</h3>
       <ul>
         <li>
           <h3 id="plugins-alert">art.alert(content, [callback])</h3>
-          <pre id="plugins-alert-demo" class="sh_javascript">art.alert('ÄÇĞ©Äê£¬ÎÒÃÇÒ»Æğ×·µÄÅ®º¢');
+          <pre id="plugins-alert-demo" class="sh_javascript">art.alert('é‚£äº›å¹´ï¼Œæˆ‘ä»¬ä¸€èµ·è¿½çš„å¥³å­©');
 </pre>
-          <a class="runCode" href="#plugins-alert-demo">ÔËĞĞ</a> </li>
+          <a class="runCode" href="#plugins-alert-demo">è¿è¡Œ</a> </li>
         <li>
           <h3 id="plugins-confirm">art.confirm(content, ok, [cancel])</h3>
-          <pre id="plugins-confirm-demo" class="sh_javascript">art.confirm('ÄãÔÙÒ²²»ÏàĞÅ°®ÇéÁËÃ´£¿', function () {
+          <pre id="plugins-confirm-demo" class="sh_javascript">art.confirm('ä½ å†ä¹Ÿä¸ç›¸ä¿¡çˆ±æƒ…äº†ä¹ˆï¼Ÿ', function () {
     alert(0);
 }, function () {
     alert(1);
 });
 </pre>
-          <a class="runCode" href="#plugins-confirm-demo">ÔËĞĞ</a> </li>
+          <a class="runCode" href="#plugins-confirm-demo">è¿è¡Œ</a> </li>
         <li>
           <h3 id="plugins-prompt">art.prompt(content, ok, [defaultValue])</h3>
-          <pre id="plugins-prompt-demo" class="sh_javascript">art.prompt('ÄãµÄÃû×ÖÊÇÊ²Ã´£¿', function (value) {
+          <pre id="plugins-prompt-demo" class="sh_javascript">art.prompt('ä½ çš„åå­—æ˜¯ä»€ä¹ˆï¼Ÿ', function (value) {
     alert(value);
-}, 'ÌÇ±ı');
+}, 'ç³–é¥¼');
 </pre>
-          <a class="runCode" href="#plugins-prompt-demo">ÔËĞĞ</a> </li>
+          <a class="runCode" href="#plugins-prompt-demo">è¿è¡Œ</a> </li>
         <li>
           <h3 id="plugins-shake">shake()</h3>
           <pre id="plugins-shake-demo" class="sh_javascript">art.dialog({
     id: 'shake-demo',
-    title: 'µÇÂ¼',
-    content: 'ÕÊºÅ£º&lt;input type="text" value="guest" /&gt;&lt;br /&gt;'
-        + 'ÃÜÂë£º&lt;input id="login-pw" type="text" value="****" /&gt;',
+    title: 'ç™»å½•',
+    content: 'å¸å·ï¼š&lt;input type="text" value="guest" /&gt;&lt;br /&gt;'
+        + 'å¯†ç ï¼š&lt;input id="login-pw" type="text" value="****" /&gt;',
     lock: true,
     fixed: true,
     ok: function () {
@@ -1050,15 +1050,15 @@ dialog.time(2000);</pre>
     	this.shake();
         return false;
     },
-    okValue: 'µÇÂ¼',
+    okValue: 'ç™»å½•',
     cancel: function () {}
 });</pre>
-          <a class="runCode" href="#plugins-shake-demo">ÔËĞĞ</a> </li>
+          <a class="runCode" href="#plugins-shake-demo">è¿è¡Œ</a> </li>
       </ul>
     </div>
   </div>
 </div>
-<p align="center">ÊÊÓÃä¯ÀÀÆ÷£ºIE8¡¢360¡¢FireFox¡¢Chrome¡¢Safari¡¢Opera¡¢°ÁÓÎ¡¢ËÑ¹·¡¢ÊÀ½çÖ®´°. </p>
+<p align="center">é€‚ç”¨æµè§ˆå™¨ï¼šIE8ã€360ã€FireFoxã€Chromeã€Safariã€Operaã€å‚²æ¸¸ã€æœç‹—ã€ä¸–ç•Œä¹‹çª—. </p>
 
 <!-- //////////// -->
 <div id="skins" style="display:none">
@@ -1075,7 +1075,7 @@ dialog.time(2000);</pre>
     <li><a class="button" href="javascript:;">green</a></li>
   </ul>
   <div id="skins-dialog-content">
-    <p style="text-align:center">±¸×¢£º´øÒõÓ°µÄĞ§¹ûµÄÆ¤·ô²»±»IE6Ö§³Ö¡£¿ÉÊ¹ÓÃ½¥½øÔöÇ¿·½Ê½ <a href="javascript:;" onclick="document.getElementById('skins-ie6').style.display='block';return false">½â¾ö[+]</a></p>
+    <p style="text-align:center">å¤‡æ³¨ï¼šå¸¦é˜´å½±çš„æ•ˆæœçš„çš®è‚¤ä¸è¢«IE6æ”¯æŒã€‚å¯ä½¿ç”¨æ¸è¿›å¢å¼ºæ–¹å¼ <a href="javascript:;" onclick="document.getElementById('skins-ie6').style.display='block';return false">è§£å†³[+]</a></p>
     <pre id="skins-ie6" class="sh_javascript" style="display:none">&lt;!--[if gte IE 7]&gt;&lt;!--&gt;
     &lt;link href="./skins/aero.css" rel="stylesheet" /&gt;
 &lt;!--&lt;![endif]--&gt;
@@ -1100,7 +1100,7 @@ sh_highlightDocument();
 
 $('#artVersion').html(art.dialog.version || '');
 
-// ÔËĞĞ´úÂë
+// è¿è¡Œä»£ç 
 $.prototype.runCode = function () {
     var getText = function(elems) {
         var ret = "", elem;
@@ -1128,7 +1128,7 @@ $.prototype.runCode = function () {
     return this;
 };
 
-// ´úÂëÔËĞĞ°´Å¥
+// ä»£ç è¿è¡ŒæŒ‰é’®
 var runCodeBtn = function (event) {
     var target = event.target,
         type = event.type,
@@ -1165,7 +1165,7 @@ $(document).bind('mouseover', runCodeBtn);
 $(document).bind('mouseout', runCodeBtn);
 
 
-// Òì²½¼ÓÔØ js
+// å¼‚æ­¥åŠ è½½ js
 $.getScript = $.getScript || function (url, callback) {
 	
 	var query = arguments[2] || '';
@@ -1210,8 +1210,8 @@ $('#getPlugins').bind('click', function () {
 	that.disabled = true;
 	
 	$.getScript(url, function () {
-		//$.alert(url + ' ²å¼ş¼ÓÔØ³É¹¦£¡');
-		that.innerHTML = '²å¼şÒÑ¼ÓÔØ';
+		//$.alert(url + ' æ’ä»¶åŠ è½½æˆåŠŸï¼');
+		that.innerHTML = 'æ’ä»¶å·²åŠ è½½';
 		$('#plugins-demos').show();
 	});
 	
@@ -1219,10 +1219,10 @@ $('#getPlugins').bind('click', function () {
 })[0].disabled = false;
 
 
-// Æ¤·ôÑİÊ¾
+// çš®è‚¤æ¼”ç¤º
 var skinDialog = art.dialog({
     id: 'dialog-skins-demo',
-    title: 'Æ¤·ôÑİÊ¾',
+    title: 'çš®è‚¤æ¼”ç¤º',
     content: $('#skins')[0],
     fixed: true,
     initialize: function () {
@@ -1262,12 +1262,12 @@ $('#showSkinDialog').bind('click', function () {
 $('#showChange').bind('click', function () {
     $(document.body).addClass('showChange');
 	this.disabled = true;
-    this.innerHTML += '-ÒÑÉèÖÃ!';
+    this.innerHTML += '-å·²è®¾ç½®!';
     return false;
 })[0].disabled = false;
 
 
-// ´òÓ¡°´Å¥
+// æ‰“å°æŒ‰é’®
 $('#print').bind('click', function () {
     print();
     return false;
