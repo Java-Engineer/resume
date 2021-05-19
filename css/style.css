@@ -310,7 +310,7 @@ section {
 	width: 150px;
 	height: auto;
 	padding: 24px 0;
-	text-indent: -99999px;
+	/* text-indent: -99999px; */
 	font-size: 24px;
 	font-weight: 600;
 	line-height: 20px;
@@ -321,7 +321,7 @@ section {
 	-ms-transition: all 0.1s ease-in-out;
 	transition: all 0.1s ease-in-out;
 }
-.navbar-default .navbar-brand {
+/* .navbar-default .navbar-brand {
 	
 	background-image: url(../img/logo1.png);
 }
@@ -333,7 +333,7 @@ section {
 }
 .navbar-inverse .navbar-brand {
 	background-image: url(../img/logo1.png);
-}
+} */
 
 /* Navbar links */
 .navbar-nav > li > a {
